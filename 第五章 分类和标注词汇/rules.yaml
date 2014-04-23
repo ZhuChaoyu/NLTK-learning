@@ -1,0 +1,5221 @@
+!nltk.BrillTagger
+_initial_tagger: &id001 !nltk.BigramTagger
+  _context_to_tag:
+    ? !!python/tuple
+    - !!python/tuple []
+    - '1'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple []
+    - '2'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple []
+    - '3'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple []
+    - '4'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple []
+    - '5'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple []
+    - After
+    : IN
+    ? !!python/tuple
+    - !!python/tuple []
+    - American
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple []
+    - Average
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple []
+    - Big
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple []
+    - But
+    : CC
+    ? !!python/tuple
+    - !!python/tuple []
+    - Champagne
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Copperweld
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple []
+    - Currently
+    : RB
+    ? !!python/tuple
+    - !!python/tuple []
+    - Department
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Economic
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple []
+    - Esso
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple []
+    - Federal
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple []
+    - Financial
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple []
+    - First
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple []
+    - Friends
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple []
+    - Government
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple []
+    - High
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple []
+    - Macmillan\/McGraw
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Medical
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple []
+    - Mitsubishi
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple []
+    - Montedison
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - More
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple []
+    - Moreover
+    : RB
+    ? !!python/tuple
+    - !!python/tuple []
+    - 'No'
+    : DT
+    ? !!python/tuple
+    - !!python/tuple []
+    - None
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple []
+    - One
+    : CD
+    ? !!python/tuple
+    - !!python/tuple []
+    - Pictures
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple []
+    - Revenue
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Safety
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Second
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple []
+    - Separately
+    : RB
+    ? !!python/tuple
+    - !!python/tuple []
+    - So
+    : RB
+    ? !!python/tuple
+    - !!python/tuple []
+    - State
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Sterling
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Stock
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - That
+    : DT
+    ? !!python/tuple
+    - !!python/tuple []
+    - Trading
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Wine
+    : NN
+    ? !!python/tuple
+    - !!python/tuple []
+    - Yet
+    : RB
+    ? !!python/tuple
+    - !!python/tuple []
+    - a
+    : LS
+    ? !!python/tuple
+    - !!python/tuple ['''''']
+    - that
+    : WDT
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - First
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - Parkinson
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - Southeast
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - The
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - about
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - accelerated
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - acquired
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - as
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - asked
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - awarded
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - change
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - deal
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - disappointed
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - down
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - executive
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - found
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - have
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - head
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - jumped
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - last
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - launched
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - led
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - most
+    : RBS
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - named
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - 'off'
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - printed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - prompted
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - purchasing
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - reached
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - removed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - reports
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - resigned
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - so
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - though
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - total
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - unlike
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - up
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [',']
+    - viewed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - '''s'
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - Asked
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - account
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - accounts
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - advertising
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - after
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - banned
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - beginning
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - buy
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - buy-back
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - called
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - carried
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - changed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - clear
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - come
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - costs
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - earlier
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - early
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - find
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - forcing
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - give
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - go
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - import
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - later
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - led
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - lives
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - lure
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - made
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - make
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - mark
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - matched
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - matters
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - mature
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - measures
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - meet
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - most
+    : RBS
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - next
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - 'on'
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - out
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - over
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - pay
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - planned
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - provide
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - raised
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - reported
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - seek
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - send
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - set
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - show
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - slow
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - so
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - stand
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - studied
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - study
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - to
+    : TO
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - together
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - trade
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - trading
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [-NONE-]
+    - use
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [-RRB-]
+    - 'no'
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [.]
+    - ''''
+    : ''''''
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - '1'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - '2'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - '3'
+    : LS
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - Average
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - a
+    : DT
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - agreed
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - and
+    : CC
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - are
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - changed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - complicated
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - even
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - if
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - including
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - offer
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - plus
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - the
+    : DT
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - to
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - which
+    : WDT
+    ? !!python/tuple
+    - !!python/tuple [':']
+    - wines
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - Japanese
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - Soviet
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - about
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - answers
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - caused
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - charge
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - chief
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - close
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - commercial
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - cut
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - export
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - face
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - finance
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - force
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - involved
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - look
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - manufacturing
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - marketing
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - markets
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - more
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - opened
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - out
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - paid
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - plan
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - refund
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - retail
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - risk
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - run
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - sign
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - sold
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - starts
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - suffer
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - talk
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - telecommunications
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - trust
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - used
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - warrants
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - watch
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [CC]
+    - white
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - criminal
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - indicate
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - more
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - outside
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - right
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - stock-index
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - that
+    : WDT
+    ? !!python/tuple
+    - !!python/tuple [CD]
+    - yen
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - '''s'
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - 10-year
+    : CD
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - American
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - Comprehensive
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - Cray-3
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - European
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - Japanese
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - Netherlands
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - New
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - Palestinian
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - People
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - Philippines
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - Securities
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - U.S.
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - act
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - answer
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - assistant
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - block
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - boost
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - buy-out
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - can
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - cause
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - change
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - chief
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - closed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - combined
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - commercial
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - crack
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - data
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - double
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - finding
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - future
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - gain
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - giant
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - good
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - hard
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - hit
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - homosexual
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - hostile
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - increase
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - indicated
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - individual
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - integrated
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - key
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - last
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - laughing
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - light
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - little
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - longer
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - male
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - manufacturing
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - media
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - most
+    : RBS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - moves
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - much
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - need
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - note
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - official
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - one
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - only
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - outside
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - overhead
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - past
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - plans
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - potential
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - principal
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - proposed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - public
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - publishing
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - purchasing
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - raise
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - record
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - related
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - reporting
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - result
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - right
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - rise
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - run
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - savings
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - selling
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - set
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - slowing
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - standard
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - standing
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - switch
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - that
+    : WDT
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - total
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - trading
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - use
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - very
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - while
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - wholesale
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [DT]
+    - yen
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [EX]
+    - '''s'
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Australian
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - British
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Erbamont
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Justice
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Lorillard
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Manufacturers
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Messrs.
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - New
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Philippine
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Republican
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - Southeast
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - about
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - all
+    : DT
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - alleged
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - banking
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - chief
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - close
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - comment
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - commercial
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - common
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - crib
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - defeat
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - early
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - far
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - free
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - front
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - good
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - growing
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - half
+    : DT
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - hard
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - her
+    : PRP$
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - hope
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - light
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - little
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - marketing
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - minimum
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - operating
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - retail
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - rival
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - sell
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - that
+    : DT
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - there
+    : EX
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - trading
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - tripled
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - turn
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - up
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [IN]
+    - worry
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - ADRs
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - American
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - Dec.
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - Japanese
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - Test
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - Three
+    : CD
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - act
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - appeal
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - approach
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - attempts
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - average
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - beginning
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - block
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - borrowing
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - close
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - commercial
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - criminal
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - depositary
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - design
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - executive
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - finding
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - fiscal
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - gain
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - half
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - help
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - high
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - light
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - mean
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - more
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - net
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - note
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - offering
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - offers
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - 'on'
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - once
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - pay
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - play
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - set
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - step
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - support
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - talk
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - thought
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - trading
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - use
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [JJ]
+    - values
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [JJR]
+    - tender
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [JJS]
+    - Southeast
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [JJS]
+    - purchased
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [JJS]
+    - trading
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - allow
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - bar
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - become
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - blip
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - cause
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - clear
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - come
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - consist
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - contain
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - cost
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - cut
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - default
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - direct
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - do
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - end
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - experience
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - face
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - force
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - have
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - hit
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - include
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - like
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - move
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - 'no'
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - permit
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - report
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - risk
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - rule
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - say
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - seem
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - set
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - spread
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - stem
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - study
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - think
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - total
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [MD]
+    - work
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - ''''
+    : ''''''
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - '''s'
+    : POS
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - '8300'
+    : CD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - acquired
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - act
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - ago
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - allowed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - around
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - as
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - average
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - banking
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - before
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - boosted
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - boosts
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - but
+    : CC
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - called
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - care
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - caused
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - change
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - charges
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - climbed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - de
+    : FW
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - decide
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - disclosed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - down
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - earlier
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - ended
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - financing
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - first
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - formed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - general
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - had
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - headquarters
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - heard
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - help
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - high
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - higher
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - holding
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - increase
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - increased
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - issued
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - jumped
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - killed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - late
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - led
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - load
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - make
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - marks
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - next
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - 'off'
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - opened
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - orders
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - out
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - paid
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - parallels
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - pay
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - plans
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - prompted
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - publishing
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - reduced
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - refused
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - right
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - rise
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - sell
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - sets
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - shows
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - slide
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - so
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - spend
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - store
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - talk
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - talks
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - that
+    : WDT
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - tied
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - together
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - up
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NN]
+    - welcomed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - '&'
+    : CC
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - ''''
+    : POS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - '''s'
+    : POS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - A
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - A.
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - American
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Asian
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Associates
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Banks
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Communications
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Dealers
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - East
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Factory
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - I
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Industries
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Lawyers
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Machines
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Savings
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Securities
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Springs
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Systems
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - TV
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Test
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Utilities
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - Wa
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - York-based
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - aimed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - approach
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - as
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - assured
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - called
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - close
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - confirmed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - costs
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - declared
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - declines
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - determined
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - estimated
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - executive
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - extend
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - filed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - first
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - give
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - have
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - launched
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - led
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - lost
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - made
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - make
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - moved
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - 'off'
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - opened
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - preferred
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - public
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - rates
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - registered
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - released
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - reporting
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - say
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - senior
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - set
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - settled
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - shot
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - so
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - spent
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - talks
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - there
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - trading
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [NNP]
+    - tried
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNPS]
+    - passed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - account
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - advertising
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - ago
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - alleged
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - as
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - boosted
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - build
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - consider
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - continue
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - decline
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - described
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - do
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - dumped
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - earlier
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - ease
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - either
+    : CC
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - find
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - get
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - give
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - held
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - increased
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - invested
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - involved
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - later
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - lead
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - maintained
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - make
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - mean
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - next
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - offer
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - offering
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - opposed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - out
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - overseas
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - point
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - proposed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - put
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - question
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - ranged
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - recorded
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - related
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - released
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - require
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - say
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - show
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - shows
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - sold
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - sooner
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - squeezed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - subject
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - that
+    : WDT
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - there
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - total
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - trade
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - triggered
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - voice
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - want
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [NNS]
+    - watch
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - ADRs
+    : NNPS
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - Big
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - better
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - chief
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - common
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - front
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - honor
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - lead
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - manufacturing
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - most
+    : RBS
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - planned
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - real-estate
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [POS]
+    - support
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - '''s'
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - acquired
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - add
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - all
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - ask
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - become
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - believed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - bid
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - blamed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - brought
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - chastised
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - have
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - helped
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - identified
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - imported
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - in
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - know
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - left
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - like
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - look
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - made
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - more
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - 'no'
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - opened
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - own
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - pay
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - point
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - provide
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - raised
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - read
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - returned
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - returns
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - sent
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - soared
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - sold
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - spent
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - succeed
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - take
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - tried
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - up
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [PRP]
+    - work
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - bottom
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - claim
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - claims
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - help
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - most
+    : RBS
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - needs
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - pay
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - planned
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - publishing
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - reach
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - start
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - support
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - third-quarter
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [PRP$]
+    - underlying
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - about
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - account
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - adopted
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - agree
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - announced
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - approved
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - as
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - avoid
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - before
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - believe
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - bid
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - brought
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - closed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - come
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - complete
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - content
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - decided
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - deemed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - demand
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - deserve
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - direct
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - disclosed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - early
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - elaborate
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - end
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - estimated
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - expect
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - face
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - far
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - funded
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - half
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - have
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - improve
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - include
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - introduced
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - issued
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - known
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - less
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - level
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - like
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - little
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - long
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - longer
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - made
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - meet
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - move
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - much
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - name
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - named
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - 'off'
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - offer
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - offered
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - one
+    : CD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - one-third
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - ordered
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - over
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - own
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - posts
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - put
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - received
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - rejected
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - require
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - return
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - said
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - show
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - signed
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - so
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - split
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - target
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - targets
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - there
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - think
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - total
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - touch
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - trade
+    : VBP
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - turned
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - up
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - used
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - want
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - work
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - worth
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RB]
+    - yielding
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [RBR]
+    - mature
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [RP]
+    - as
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [RP]
+    - down
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - about
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - aid
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - allow
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - attack
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - back
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - ban
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - beat
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - become
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - book
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - come
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - contract
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - cut
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - deal
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - decline
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - do
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - draw
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - drop
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - encourage
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - end
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - expire
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - favor
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - force
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - fund
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - further
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - have
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - head
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - her
+    : PRP$
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - hold
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - issue
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - last
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - launch
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - less
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - mention
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - move
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - open
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - oppose
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - place
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - plan
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - pressure
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - promote
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - rate
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - reach
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - read
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - refund
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - report
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - return
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - review
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - right
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - rule
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - say
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - settle
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - share
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - single
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - slow
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - stake
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - start
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - supply
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - test
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - that
+    : DT
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - top
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - trade
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - watch
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - work
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [TO]
+    - worry
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - Asia
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - about
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - accelerated
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - across
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - away
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - completed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - continued
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - damaged
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - down
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - first
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - her
+    : PRP
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - home
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - in
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - learned
+    : VBD
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - less
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - most
+    : RBS
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - much
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - needed
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - 'on'
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - only
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - support
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - through
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VB]
+    - troubled
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - Sept.
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - about
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - announced
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - approved
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - as
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - better
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - checking
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - comment
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - completed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - developed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - down
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - earlier
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - fail
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - fired
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - grant
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - have
+    : VB
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - heating
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - her
+    : PRP
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - higher
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - honor
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - in
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - introduced
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - kind
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - late
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - lower
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - more
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - needed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - 'no'
+    : DT
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - 'off'
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - offered
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - ordered
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - out
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - over
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - placed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - put
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - reported
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - said
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - turned
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - up
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBD]
+    - vice
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - about
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - air
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - back
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - because
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - before
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - capital-gains
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - cause
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - closer
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - continued
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - down
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - fine
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - her
+    : PRP
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - in
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - out
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - outside
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - plans
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - stocks
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBG]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - about
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - around
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - calls
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - combines
+    : NNS
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - for
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - found
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - her
+    : PRP$
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - hope
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - in
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - operating
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - packaging
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - slack
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - view
+    : NN
+    ? !!python/tuple
+    - !!python/tuple [VBN]
+    - worked
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - Nov.
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - agreed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - all
+    : PDT
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - around
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - as
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - complained
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - down
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - far
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - for
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - got
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - had
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - her
+    : PRP
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - limited
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - long
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - met
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - more
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - never
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - 'on'
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - received
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - speculated
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - thought
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - trading
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - turned
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBP]
+    - wanted
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - Japanese
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - about
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - agreed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - applied
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - approved
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - around
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - as
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - building
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - by
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - completed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - dropped
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - failed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - followed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - further
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - half
+    : PDT
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - hard
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - her
+    : PRP$
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - in
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - indicated
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - interested
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - less
+    : RBR
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - more
+    : JJR
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - offered
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - 'on'
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - posted
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - proposed
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - put
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - reported
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - subject
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - surged
+    : VBN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - that
+    : IN
+    ? !!python/tuple
+    - !!python/tuple [VBZ]
+    - worth
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [WP]
+    - '''s'
+    : VBZ
+    ? !!python/tuple
+    - !!python/tuple [WP]
+    - earlier
+    : RB
+    ? !!python/tuple
+    - !!python/tuple [WRB]
+    - about
+    : RP
+    ? !!python/tuple
+    - !!python/tuple [WRB]
+    - most
+    : RBS
+    ? !!python/tuple
+    - !!python/tuple [WRB]
+    - much
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple [WRB]
+    - trading
+    : VBG
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - Funny
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - In
+    : NNP
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - Little
+    : RB
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - One
+    : NN
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - So
+    : RB
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - The
+    : DT
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - because
+    : RB
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - parallel
+    : JJ
+    ? !!python/tuple
+    - !!python/tuple ['``']
+    - teach
+    : VBP
+  _n: 2
+  _taggers:
+  - *id001
+  - &id002 !nltk.UnigramTagger
+    _context_to_tag: {'!': ., $: $, '&': CC, '''': POS, '''''': '''''', '''40s': CD,
+      '''50s': CD, '''82': CD, '''86': CD, '''d': MD, '''ll': MD, '''m': VBP, '''re': VBP,
+      '''s': POS, '''ve': VBP, '*': -NONE-, '*-1': -NONE-, '*-10': -NONE-, '*-100': -NONE-,
+      '*-101': -NONE-, '*-102': -NONE-, '*-103': -NONE-, '*-104': -NONE-, '*-105': -NONE-,
+      '*-106': -NONE-, '*-107': -NONE-, '*-108': -NONE-, '*-109': -NONE-, '*-11': -NONE-,
+      '*-110': -NONE-, '*-111': -NONE-, '*-112': -NONE-, '*-113': -NONE-, '*-114': -NONE-,
+      '*-115': -NONE-, '*-116': -NONE-, '*-117': -NONE-, '*-118': -NONE-, '*-119': -NONE-,
+      '*-12': -NONE-, '*-120': -NONE-, '*-121': -NONE-, '*-122': -NONE-, '*-123': -NONE-,
+      '*-124': -NONE-, '*-125': -NONE-, '*-126': -NONE-, '*-127': -NONE-, '*-128': -NONE-,
+      '*-129': -NONE-, '*-13': -NONE-, '*-130': -NONE-, '*-14': -NONE-, '*-15': -NONE-,
+      '*-16': -NONE-, '*-17': -NONE-, '*-18': -NONE-, '*-19': -NONE-, '*-2': -NONE-,
+      '*-20': -NONE-, '*-21': -NONE-, '*-22': -NONE-, '*-23': -NONE-, '*-24': -NONE-,
+      '*-25': -NONE-, '*-26': -NONE-, '*-27': -NONE-, '*-28': -NONE-, '*-29': -NONE-,
+      '*-3': -NONE-, '*-31': -NONE-, '*-32': -NONE-, '*-33': -NONE-, '*-34': -NONE-,
+      '*-35': -NONE-, '*-36': -NONE-, '*-37': -NONE-, '*-38': -NONE-, '*-39': -NONE-,
+      '*-4': -NONE-, '*-40': -NONE-, '*-41': -NONE-, '*-42': -NONE-, '*-43': -NONE-,
+      '*-44': -NONE-, '*-45': -NONE-, '*-46': -NONE-, '*-47': -NONE-, '*-48': -NONE-,
+      '*-49': -NONE-, '*-5': -NONE-, '*-50': -NONE-, '*-51': -NONE-, '*-52': -NONE-,
+      '*-53': -NONE-, '*-54': -NONE-, '*-55': -NONE-, '*-56': -NONE-, '*-57': -NONE-,
+      '*-59': -NONE-, '*-6': -NONE-, '*-60': -NONE-, '*-61': -NONE-, '*-62': -NONE-,
+      '*-63': -NONE-, '*-64': -NONE-, '*-67': -NONE-, '*-68': -NONE-, '*-69': -NONE-,
+      '*-7': -NONE-, '*-70': -NONE-, '*-71': -NONE-, '*-72': -NONE-, '*-73': -NONE-,
+      '*-74': -NONE-, '*-76': -NONE-, '*-78': -NONE-, '*-79': -NONE-, '*-8': -NONE-,
+      '*-80': -NONE-, '*-81': -NONE-, '*-83': -NONE-, '*-84': -NONE-, '*-85': -NONE-,
+      '*-86': -NONE-, '*-87': -NONE-, '*-88': -NONE-, '*-89': -NONE-, '*-9': -NONE-,
+      '*-90': -NONE-, '*-91': -NONE-, '*-92': -NONE-, '*-93': -NONE-, '*-94': -NONE-,
+      '*-95': -NONE-, '*-96': -NONE-, '*-97': -NONE-, '*-98': -NONE-, '*-99': -NONE-,
+      '*?*': -NONE-, '*EXP*-1': -NONE-, '*EXP*-2': -NONE-, '*EXP*-3': -NONE-, '*ICH*-1': -NONE-,
+      '*ICH*-2': -NONE-, '*ICH*-3': -NONE-, '*ICH*-4': -NONE-, '*PPA*-1': -NONE-,
+      '*PPA*-2': -NONE-, '*RNR*-1': -NONE-, '*RNR*-4': -NONE-, '*T*-1': -NONE-, '*T*-10': -NONE-,
+      '*T*-100': -NONE-, '*T*-101': -NONE-, '*T*-102': -NONE-, '*T*-103': -NONE-,
+      '*T*-104': -NONE-, '*T*-105': -NONE-, '*T*-106': -NONE-, '*T*-107': -NONE-,
+      '*T*-108': -NONE-, '*T*-109': -NONE-, '*T*-11': -NONE-, '*T*-110': -NONE-, '*T*-111': -NONE-,
+      '*T*-112': -NONE-, '*T*-113': -NONE-, '*T*-114': -NONE-, '*T*-115': -NONE-,
+      '*T*-116': -NONE-, '*T*-117': -NONE-, '*T*-118': -NONE-, '*T*-119': -NONE-,
+      '*T*-12': -NONE-, '*T*-120': -NONE-, '*T*-121': -NONE-, '*T*-122': -NONE-, '*T*-123': -NONE-,
+      '*T*-124': -NONE-, '*T*-125': -NONE-, '*T*-126': -NONE-, '*T*-127': -NONE-,
+      '*T*-128': -NONE-, '*T*-129': -NONE-, '*T*-13': -NONE-, '*T*-130': -NONE-, '*T*-131': -NONE-,
+      '*T*-132': -NONE-, '*T*-133': -NONE-, '*T*-134': -NONE-, '*T*-135': -NONE-,
+      '*T*-136': -NONE-, '*T*-137': -NONE-, '*T*-138': -NONE-, '*T*-139': -NONE-,
+      '*T*-14': -NONE-, '*T*-140': -NONE-, '*T*-141': -NONE-, '*T*-142': -NONE-, '*T*-143': -NONE-,
+      '*T*-144': -NONE-, '*T*-145': -NONE-, '*T*-146': -NONE-, '*T*-147': -NONE-,
+      '*T*-148': -NONE-, '*T*-149': -NONE-, '*T*-15': -NONE-, '*T*-150': -NONE-, '*T*-151': -NONE-,
+      '*T*-152': -NONE-, '*T*-153': -NONE-, '*T*-154': -NONE-, '*T*-155': -NONE-,
+      '*T*-156': -NONE-, '*T*-157': -NONE-, '*T*-158': -NONE-, '*T*-159': -NONE-,
+      '*T*-16': -NONE-, '*T*-160': -NONE-, '*T*-161': -NONE-, '*T*-162': -NONE-, '*T*-163': -NONE-,
+      '*T*-164': -NONE-, '*T*-165': -NONE-, '*T*-166': -NONE-, '*T*-167': -NONE-,
+      '*T*-168': -NONE-, '*T*-169': -NONE-, '*T*-17': -NONE-, '*T*-170': -NONE-, '*T*-171': -NONE-,
+      '*T*-172': -NONE-, '*T*-173': -NONE-, '*T*-174': -NONE-, '*T*-175': -NONE-,
+      '*T*-176': -NONE-, '*T*-177': -NONE-, '*T*-178': -NONE-, '*T*-179': -NONE-,
+      '*T*-18': -NONE-, '*T*-180': -NONE-, '*T*-181': -NONE-, '*T*-182': -NONE-, '*T*-183': -NONE-,
+      '*T*-184': -NONE-, '*T*-185': -NONE-, '*T*-186': -NONE-, '*T*-187': -NONE-,
+      '*T*-188': -NONE-, '*T*-189': -NONE-, '*T*-19': -NONE-, '*T*-190': -NONE-, '*T*-191': -NONE-,
+      '*T*-192': -NONE-, '*T*-193': -NONE-, '*T*-194': -NONE-, '*T*-195': -NONE-,
+      '*T*-196': -NONE-, '*T*-197': -NONE-, '*T*-198': -NONE-, '*T*-199': -NONE-,
+      '*T*-2': -NONE-, '*T*-20': -NONE-, '*T*-200': -NONE-, '*T*-201': -NONE-, '*T*-202': -NONE-,
+      '*T*-203': -NONE-, '*T*-204': -NONE-, '*T*-205': -NONE-, '*T*-206': -NONE-,
+      '*T*-207': -NONE-, '*T*-208': -NONE-, '*T*-21': -NONE-, '*T*-210': -NONE-, '*T*-211': -NONE-,
+      '*T*-212': -NONE-, '*T*-213': -NONE-, '*T*-214': -NONE-, '*T*-22': -NONE-, '*T*-23': -NONE-,
+      '*T*-24': -NONE-, '*T*-25': -NONE-, '*T*-26': -NONE-, '*T*-27': -NONE-, '*T*-28': -NONE-,
+      '*T*-29': -NONE-, '*T*-3': -NONE-, '*T*-30': -NONE-, '*T*-31': -NONE-, '*T*-32': -NONE-,
+      '*T*-33': -NONE-, '*T*-34': -NONE-, '*T*-35': -NONE-, '*T*-36': -NONE-, '*T*-37': -NONE-,
+      '*T*-38': -NONE-, '*T*-39': -NONE-, '*T*-4': -NONE-, '*T*-40': -NONE-, '*T*-41': -NONE-,
+      '*T*-42': -NONE-, '*T*-43': -NONE-, '*T*-44': -NONE-, '*T*-45': -NONE-, '*T*-46': -NONE-,
+      '*T*-47': -NONE-, '*T*-48': -NONE-, '*T*-49': -NONE-, '*T*-5': -NONE-, '*T*-50': -NONE-,
+      '*T*-51': -NONE-, '*T*-52': -NONE-, '*T*-53': -NONE-, '*T*-54': -NONE-, '*T*-55': -NONE-,
+      '*T*-56': -NONE-, '*T*-57': -NONE-, '*T*-58': -NONE-, '*T*-59': -NONE-, '*T*-6': -NONE-,
+      '*T*-60': -NONE-, '*T*-61': -NONE-, '*T*-62': -NONE-, '*T*-63': -NONE-, '*T*-64': -NONE-,
+      '*T*-65': -NONE-, '*T*-66': -NONE-, '*T*-67': -NONE-, '*T*-68': -NONE-, '*T*-69': -NONE-,
+      '*T*-7': -NONE-, '*T*-70': -NONE-, '*T*-71': -NONE-, '*T*-72': -NONE-, '*T*-73': -NONE-,
+      '*T*-74': -NONE-, '*T*-75': -NONE-, '*T*-76': -NONE-, '*T*-77': -NONE-, '*T*-78': -NONE-,
+      '*T*-79': -NONE-, '*T*-8': -NONE-, '*T*-80': -NONE-, '*T*-81': -NONE-, '*T*-82': -NONE-,
+      '*T*-83': -NONE-, '*T*-84': -NONE-, '*T*-85': -NONE-, '*T*-86': -NONE-, '*T*-87': -NONE-,
+      '*T*-88': -NONE-, '*T*-89': -NONE-, '*T*-9': -NONE-, '*T*-90': -NONE-, '*T*-91': -NONE-,
+      '*T*-92': -NONE-, '*T*-93': -NONE-, '*T*-94': -NONE-, '*T*-95': -NONE-, '*T*-96': -NONE-,
+      '*T*-97': -NONE-, '*T*-98': -NONE-, '*T*-99': -NONE-, '*U*': -NONE-, ',': ',',
+      '-': ':', --: ':', -LCB-: -LRB-, -LRB-: -LRB-, -RCB-: -RRB-, -RRB-: -RRB-, .: .,
+      '...': ':', '0': -NONE-, '1': CD, 10-lap: JJ, 10-year: JJ, 10th: JJ, 11th: JJ,
+      12-member: JJ, 12-point: JJ, 14-hour: JJ, 150-point: JJ, 17-year-old: JJ, 18-year-old: JJ,
+      1920s: NNS, 1950s: CD, 1960s: CD, 1970s: CD, 1990s: NNS, 1\/2: CD, 1\/4: CD,
+      '2': CD, '2,303,328': CD, 20-point: JJ, '3': CD, '3,288,453': CD, 30-day: JJ,
+      30-minute: JJ, 30-point: JJ, 30-year: JJ, 36-day: JJ, 36-minute: JJ, 37-a-share: JJ,
+      37-year-old: JJ, 3\/4: CD, '4': CD, '4,393,237': CD, 40-year-old: JJ, '5': CD,
+      50-state: JJ, 51-year-old: JJ, 52-week: JJ, 520-lawyer: JJ, 54-year-old: JJ,
+      58-year-old: JJ, 5\/8: CD, 63-year-old: JJ, 64-year-old: JJ, 69-point: JJ, 70-a-share: JJ,
+      75-year-old: CD, 7\/8: CD, '8300': JJ, 8300s: NNS, ':': ':', ;: ':', '?': .,
+      '@': IN, A: DT, A.: NNP, A.C.: NNP, ABA: NNP, ACCOUNT: NNP, ACQUISITION: NNP,
+      ADRs: NNS, AG: NNP, AIDS: NNP, ASSOCIATES: NNPS, AT&T: NNP, About: IN, Academically: RB,
+      According: VBG, Account: NNP, Achievement: NNP, Acquisition: NNP, Act: NNP,
+      Ad: NNP, Adds: VBZ, Adolph: NNP, Affairs: NNP, After: IN, Against: IN, Agency: NNP,
+      Agnew: NNP, Ailes: NNP, Akerfeldt: NNP, Akio: NNP, Al: NNP, Ala.: NNP, Alan: NNP,
+      Albany: NNP, Albert: NNP, Albuquerque: NNP, All: DT, Alleghany: NNP, Allen: NNP,
+      Alliance: NNP, Along: IN, Also: RB, Altair: NNP, Although: IN, Alurralde: NNP,
+      Alvin: NNP, Alysia: NNP, Alzheimer: NNP, America: NNP, American: JJ, Americana: NNS,
+      Americans: NNS, Among: IN, An: DT, Analysts: NNS, And: CC, Angeles: NNP, Angelo: NNP,
+      Anne: NNP, Another: DT, Antinori: NNP, Antonio: NNP, Any: DT, Appeals: NNPS,
+      Appellate: NNP, Apple: NNP, April: NNP, Aptitude: NNP, Aquino: NNP, Arabia: NNP,
+      Arafat: NNP, Areas: NNS, Argentina: NNP, Argentine: JJ, Ariail: NNP, Ariz.: NNP,
+      Arizona: NNP, Arthur: NNP, Artist: NNP, As: IN, Asia: NNP, Asian: JJ, Asians: NNPS,
+      Asked: VBN, Assets: NNS, Assistant: NNP, Associates: NNPS, Association: NNP,
+      At: IN, Atlanta: NNP, Atlanta-based: JJ, Atlantic: NNP, Attorneys: NNS, Auctions: NNS,
+      Audit: NNP, Aug.: NNP, August: NNP, Australia: NNP, Australian: JJ, Austria: NNP,
+      Austrian: JJ, Automobile: NNP, Avenue: NNP, Average: NNP, Avrett: NNP, B.: NNP,
+      BRAMALEA: NNP, Babcock: NNP, Back: RB, Backe: NNP, Backer: NNP, Bailey: NNP,
+      Baker: NNP, Baltimore: NNP, Bancorp: NNP, Bangkok: NNP, Bank: NNP, Bankers: NNP,
+      Banking: NNP, Bankruptcy: NNP, Banks: NNS, Banque: NNP, Bar: NNP, Barbaresco: NNP,
+      Baris: NNP, Barnett: NNP, Barney: NNP, Barnum: NNP, Barrels: NNS, Basham: NNP,
+      Basic: JJ, Bass: NNP, Bates: NNP, Beatles: NNP, Because: IN, Before: IN, Behind: IN,
+      Beige: NNP, Beijing: NNP, Being: VBG, Belt: NNP, Bentsen: NNP, Berger: NNP,
+      Bermuda: NNP, Bermuda-based: JJ, Berson: NNP, Besides: IN, Beth: NNP, Big: NNP,
+      Bill: NNP, Billings: NNS, Biondi-Santi: NNP, Black: NNP, Blackstone: NNP, Blanc: NNP,
+      Blanchard: NNP, Blancs: NNP, Blue: NNP, Board: NNP, Bob: NNP, Boca: NNP, Bodner: NNP,
+      Boeing: NNP, Bolduc: NNP, Book: NNP, Boone: NNP, Bordeaux: NNP, Borge: NNP,
+      Boston: NNP, Both: DT, Bowery: NNP, Bowes: NNP, Brace: NNP, Brady: NNP, Braidwood: NNP,
+      Bramalea: NNP, Braun: NNP, Brazil: NNP, Brenda: NNP, Bretz: NNP, Bridgestone\/Firestone: NNP,
+      Britain: NNP, British: JJ, Broken: NNP, Bromwich: NNP, Brooke: NNP, Brooklyn: NNP,
+      Brown: NNP, Brownell: NNP, Brownstein: NNP, Brunei: NNP, Brunello: NNP, Brunswick: NNP,
+      Bugs: NNP, Bumkins: NNP, Bunny: NNP, Bureau: NNP, Burgundies: NNPS, Burgundy: NNP,
+      Burt: NNP, Bush: NNP, Business: NNP, But: CC, Butler: NNP, Buy: VB, By: IN,
+      Byron: NNP, C$: $, C'mon: VB, C.: NNP, CAMPAIGN: NNP, CAT: NNP, CBS: NNP, CDC: NNP,
+      CDs: NNS, CEOs: NNS, CHANGED: VBD, CLEARS: VBZ, COMPUTERS: NNS, CTB: NNP, CTBS: NNP,
+      Cab: NNP, Cabernet: NNP, Cabernets: NNPS, Calder: NNP, Calif: NNP, Calif.: NNP,
+      California: NNP, Campaign: NNP, Campbell: NNP, Canada: NNP, Canadian: JJ, Cancer: NNP,
+      Candela: NNP, Cannell: NNP, Capital: NNP, Capitol: NNP, Carballo: NNP, Carbide: NNP,
+      Carla: NNP, Carlos: NNP, Carney: NNP, Carolina: NNP, Cask: NNP, Cathryn: NNP,
+      Cedric: NNP, Cellar: NNP, Cellars: NNP, Center: NNP, Centerbank: NNP, Centers: NNPS,
+      Central: NNP, Certainly: RB, Chabrol: NNP, Chairman: NNP, Champagne: NNP, Champagnes: NNS,
+      Chandler: NNP, Chaplin: NNP, Characters: NNS, Chardonnay: NNP, Chardonnays: NNPS,
+      Charles: NNP, Charlie: NNP, Charlotte: NNP, Chase: NNP, Chateau: NNP, Cheese: NNP,
+      ChemPlus: NNP, Chemical: NNP, Chevrolet: NNP, Chicago: NNP, Child: NNP, Chile: NNP,
+      Chilver: NNP, China: NNP, Chinchon: NNP, Chong-sik: NNP, Christian: JJ, Christopher: NNP,
+      Chrysler: NNP, Chuck: NNP, Circle: NNP, Circuit: NNP, Circulation: NNP, Circulations: NNP,
+      City: NNP, Clara: NNP, Clark: NNP, Class: NNP, Claude: NNP, Clays: NNP, Cleveland: NNP,
+      Clive: NNP, Close: JJ, Club: NNP, Co: NNP, Co.: NNP, Coca-Cola: NNP, Coche-Dury: NNP,
+      Code: NNP, Coincident: JJ, Coleman: NNP, College: NNP, Colo.: NNP, Colony: NNP,
+      Colorado: NNP, Columbia: NNP, Combo: NNP, Commerce: NNP, Commission: NNP, Committee: NNP,
+      Commodity: NNP, Commodore: NNP, Common: NNP, Commonwealth: NNP, Communication: NNP,
+      Communications: NNP, Communists: NNS, Compare: VB, Comprehensive: NNP, Computer: NNP,
+      Comtes: NNP, Conduct: NNP, Confronted: VBN, Congress: NNP, Conn: NNP, Conn.: NNP,
+      Connecticut: NNP, Connections: NNP, Consider: VB, Consolidated: NNP, Constitution: NNP,
+      Containers: NNPS, Continuing: VBG, Control: NNP, Controls: NNP, Cooper: NNP,
+      Coors: NNP, Copperweld: NNP, Corazon: NNP, CoreStates: NNP, Corp: NNP, Corp.: NNP,
+      Corporate: NNP, Corrigan: NNP, Corton-Charlemagne: NNP, Cosby: NNP, Cosmopolitan: NNP,
+      Cote: NNP, Countries: NNS, County: NNP, Court: NNP, Courter: NNP, Cray: NNP,
+      Cray-3: NNP, Credit: NNP, Creek: NNP, Crew: NNP, Criminal: NNP, Cristal: NNP,
+      Criticism: NNP, Critics: NNS, Crown: NNP, Cru: NNP, Crude: JJ, Cultural: JJ,
+      Current: JJ, Currently: RB, Curry: NNP, Czech: JJ, Czechoslovakia: NNP, D.: NNP,
+      D.C.: NNP, DDB: NNP, DOONESBURY: NNP, Daily: NNP, Daiwa: NNP, Dale: NNP, Dallara: NNP,
+      Dallas: NNP, Dan: NNP, Dana-Farber: NNP, Danforth: NNP, Daniel: NNP, Daniels: NNP,
+      Danube: NNP, Darkhorse: NNP, Darrell: NNP, Davenport: NNP, David: NNP, Davies: NNP,
+      Dealers: NNS, Deane: NNP, Debt: NNP, Dec.: NNP, December: NNP, Default: NNP,
+      Defense: NNP, Delegates: NNPS, Democrat: NNP, Democratic: JJ, Dennis: NNP, Department: NNP,
+      Deposits-a: NNP, Desai: NNP, Despite: IN, Detroit: NNP, Developed: VBN, Development: NNP,
+      Diamond: NNP, Dick: NNP, Different: NNP, Dill: NNP, Dinkins: NNP, Discos: NNS,
+      Disease: NNP, District: NNP, Do: VBP, Doak: NNP, Dobson: NNP, Documents: NNS,
+      Dodge: NNP, Dogs: NNP, Dollar: NNP, Dollar-yen: JJ, Dolphin: NNP, Dom: NNP,
+      Domaine: NNP, Dominion: NNP, Dominus: NNP, Donald: NNP, Donaldson: NNP, Donoghue: NNP,
+      Douglas: NNP, Dow: NNP, Down: NNP, Dr.: NNP, Dresser: NNP, Dreyfus: NNP, Driscoll: NNP,
+      Driskill: NNP, Drobnick: NNP, Du: NNP, Duchossois: NNP, Dugdale: NNP, Dumpster: NNP,
+      Dunn: NNP, During: IN, Dutch: NNP, Dynamics: NNP, E.: NNP, E.C.: NNP, Each: DT,
+      Eagleton: NNP, Earle: NNP, Earlier: JJR, East: JJ, Eastern: NNP, Eaton: NNP,
+      Economic: NNP, Economics: NNP, Economists: NNS, Economy: NNP, Ed: NNP, Edge: NNP,
+      Edison: NNP, Editorials: NNS, Education: NNP, Either: CC, Electric: NNP, Elisabeth: NNP,
+      Elizabeth: NNP, Elliott: NNP, Elmhurst: NNP, Elsevier: NNP, Encouraged: JJ,
+      Energy: NNP, England: NNP, English: NNP, Ensrud: NNP, Enterprise: NNP, Entertainment: NNP,
+      Environment: NNP, Environmental: NNP, Erbamont: NNP, Esso: NNP, Estate: NNP,
+      Estimated: VBN, Europe: NNP, European: JJ, Even: RB, Every: DT, Exchange: NNP,
+      Excluding: VBG, Experts: NNS, Explorer: NNP, Exports: NNS, Exxon: NNP, F-series: NNPS,
+      F.: NNP, F.H.: NNP, F.W.: NNP, FAX: NNP, FEDERAL: JJ, FERC: NNP, FIRST: CD,
+      Factories: NNS, Factory: NN, Fair: NNP, Fannie: NNP, Fans: NNS, Fargo: NNP,
+      Farren: NNP, Faulding: NNP, Fax: NNP, Fears: NNS, Feb.: NNP, February: NNP,
+      Fed: NNP, Federal: NNP, Federation: NNP, Fellowship: NNP, Fields: NNP, Filling: VBG,
+      Filmed: VBN, Finance: NNP, Financial: NNP, Finmeccanica: NNP, First: NNP, Five: CD,
+      Fla.: NNP, Florida: NNP, Florio: NNP, Following: VBG, Foods: NNP, Foot: NNP,
+      For: IN, Ford: NNP, Foreign: NNP, Foreigners: NNS, Fortune: NNP, Foster: NNP,
+      Foundation: NNP, Founded: VBN, Four: CD, France: NNP, Frances: NNP, Francisco: NNP,
+      Frank: NNP, Frederick: NNP, Free: NNP, Fremantle: NNP, French: JJ, Friday: NNP,
+      Friends: NNPS, From: IN, Fuentes: NNP, Fuji: NNP, Fujitsu: NNP, Fund: NNP, Funny: NNP,
+      Furukawa: NNP, G.: NNP, GAF: NNP, GHKM: NNP, GHS: NNP, GOODY: NNP, GOP: NNP,
+      Ga.: NNP, Gaja: NNP, Garbage: NNP, Garry: NNP, Gary: NNP, Gates: NNP, Gayle: NNP,
+      Genel: NNP, General: NNP, Generalized: NNP, Genie: NNP, George: NNP, Georgia: NNP,
+      Georgia-Pacific: NNP, Gerald: NNP, German: JJ, Germans: NNS, Germany: NNP, Giant: NNP,
+      Giants: NNP, Gillespie: NNP, Gingl: NNP, Ginsberg: NNP, Giraud: NNP, Giuliani: NNP,
+      Glass: NNP, Glauber: NNP, God: NNP, Gold: NNP, Goldinger: NNP, Goldman: NNP,
+      Goode: NNP, Goodman: NNP, Gotta: NNP, Gov.: NNP, Government: NNP, Grace: NNP,
+      Graduate: NNP, Grand: NNP, Grange: NNP, Great: JJ, Greece: NNP, Green: NNP,
+      Greenville: NNP, Greenwich: NNP, Greer: NNP, Gregory: NNP, Grgich: NNP, Gringo: NNP,
+      Groton: NNP, Groucho: NNP, Group: NNP, Guaranteed: VBN, Guffey: NNP, Guigal: NNP,
+      Guild: NNP, Guinea: NNP, Gulf: NNP, H.: NNP, H.N.: NNP, HHS: NNP, Hallwood: NNP,
+      Hamilton: NNP, Hammerton: NNP, Hampshire: NNP, Hampton: NNP, Haney: NNP, Hara: NNP,
+      Harcourt: NNP, Harold: NNP, Harpo: NNP, Harris: NNP, Hartford: NNP, Haruki: NNP,
+      Harvard: NNP, Hatch: NNP, Haut-Brion: NNP, Have: NNP, Haven: NNP, Hawaiian: JJ,
+      Hawke: NNP, Hayes: NNP, He: PRP, Health: NNP, Heatherington: NNP, Heavy: NNP,
+      Heidelberg: NNP, Heightened: JJ, Heights: NNP, Henderson: NNP, Her: PRP$, Here: RB,
+      Heritage: NNP, Hermitage: NNP, Herrington: NNP, High: NNP, Highway: NNP, Hill: NNP,
+      Hills: NNP, Hiroshima: NNP, His: PRP$, Hitachi: NNP, Hoffman: NNP, Holding: NNP,
+      Holdings: NNP, Hollingsworth: NNP, Homebrew: NNP, Hong: NNP, Hoosier: NNP, Hormats: NNP,
+      Hot: NNP, Hotel: NNP, Houghton: NNP, House: NNP, However: RB, Hudnut: NNP, Hudson: NNP,
+      Huge: JJ, Human: NNP, Hungary: NNP, Huntington: NNP, Huntsville: NNP, Huppert: NNP,
+      Hurley: NNP, Hutton: NNP, Huxtable: NNP, I: PRP, IBC: NNP, IBM: NNP, II: NNP,
+      III: NNP, IMSAI: NNP, INGERSOLL-RAND: NNP, INTERPUBLIC: NNP, IRAs: NNS, IRS: NNP,
+      IX: CD, Ian: NNP, Ichiro: NNP, If: IN, Ill: NNP, Ill.: NNP, Illinois: NNP, Illuminating: NNP,
+      Impediments: NNP, Imports: NNS, Improvement: NNP, In: IN, Inc: NNP, Inc.: NNP,
+      Indeed: RB, India: NNP, Indiana: NNP, Indianapolis: NNP, Individual: JJ, Individuals: NNS,
+      Indonesia: NNP, Industrial: NNP, Industries: NNP, Industry: NNP, Information: NNP,
+      Initiative: NNP, Insight: NNP, Instead: RB, Institute: NNP, Institutes: NNPS,
+      Institution: NNP, Instruments: NNPS, Insurance: NNP, Integra: NNP, Integra-A: NNP,
+      Internal: NNP, International: NNP, Internatonal: NNP, Interpublic: NNP, Interviews: NNS,
+      Inventories: NNS, Investment: NNP, Investor: NNP, Investors: NNS, Iowa: NNP,
+      Iran\/Contra: NNP, Is: VBZ, Isabelle: NNP, Islands: NNPS, It: PRP, Italian: JJ,
+      Italy: NNP, Items: NNS, Itoh: NNP, Its: PRP$, J.: NNP, J.P.: NNP, JUDICIAL: JJ,
+      Jack: NNP, Jacksonville: NNP, Jacob: NNP, Jaguar: NNP, James: NNP, Jan.: NNP,
+      January: NNP, Japan: NNP, Japanese: JJ, Jay: NNP, Jefferson: NNP, Jennison: NNP,
+      Jenrette: NNP, Jerry: NNP, Jersey: NNP, Jersey-based: JJ, Jews: NNS, Jim: NNP,
+      Joanne: NNP, Jobs: NNP, Joe: NNP, John: NNP, Johnny: NNP, Johnson: NNP, Jones: NNP,
+      Joseph: NNP, Journal: NNP, Jovanovich: NNP, Jr: NNP, Jr.: NNP, Judge: NNP, Judges: NNS,
+      Judging: VBG, Judicial: NNP, Judie: NNP, July: NNP, June: NNP, Just: RB, Justice: NNP,
+      K.: NNP, Kalipharma: NNP, Kaminski: NNP, Kansas: NNP, Katzenstein: NNP, Kawasaki: NNP,
+      Kean: NNP, Kearny: NNP, Keidanren: NNP, Kelli: NNP, Kenneth: NNP, Kent: NNP,
+      Kerensky: NNP, Ketchum: NNP, Key: NNP, Kirkpatrick: NNP, Klauser: NNP, Kligman: NNP,
+      Knowing: VBG, Kodansha: NNP, Koito: NNP, Kondo: NNP, Kong: NNP, Korea: NNP,
+      Kuala: NNP, Kuhns: NNP, Kuvin: NNP, Ky.: NNP, L.: NNP, L.P.: NNP, LANDOR: NNP,
+      LSI: NNP, LTV: NNP, La: NNP, LaSalle: NNP, Lafite-Rothschild: NNP, Lake: NNP,
+      Lancaster: NNP, Landis: NNP, Landonne: NNP, Landor: NNP, Lane: NNP, Langner: NNP,
+      Larry: NNP, Laser: NNP, Last: JJ, Late: RB, Later: JJ, Latin: NNP, Latour: NNP,
+      Laura: NNP, Lawyers: NNS, Lead: JJ, Leap: NNP, Learning: NNP, Lee: NNP, Lefcourt: NNP,
+      Lehman: NNP, Leinonen: NNP, Leming: NNP, Leo: NNP, Lewis: NNP, Lezovich: NNP,
+      Liberation: NNP, Life: NNP, Lighthouse: NNP, Lights: NNP, Like: IN, Linda: NNP,
+      Little: NNP, Lloyd: NNP, Loan: NNP, Lobo: NNP, Local: NNP, Loews: NNP, Logic: NNP,
+      London: NNP, London-based: JJ, Long-term: JJ, Longer: JJR, Lord: NNP, Lorillard: NNP,
+      Los: NNP, Louis: NNP, Louisiana: NNP, Louisville: NNP, Lowe: NNP, Lt.: NNP,
+      Ltd: NNP, Ltd.: NNP, Luce: NNP, Lufkin: NNP, Lumpur: NNP, M.: NNP, MITI: NNP,
+      MacDonald: NNP, Macheski: NNP, Machines: NNPS, Macmillan: NNP, Macmillan\/McGraw: NNP,
+      Macmillan\/McGraw-Hill: NNP, Madison: NNP, Mae: NNP, Magna: NNP, Make: VB, Malaysia: NNP,
+      Malcolm: NNP, Malizia: NNP, Man: NNP, Management: NNP, Manchester: NNP, Manfred: NNP,
+      Manhattan: NNP, Manufacturers: NNS, Manufacturing: NNP, Many: JJ, Mara: NNP,
+      Marc: NNP, March: NNP, Marchand: NNP, Marder: NNP, Marie: NNP, Marie-Louise: NNP,
+      Mark: NNP, Market: NNP, Marshall: NNP, Martin: NNP, Marty: NNP, Mary: NNP, Maryland: NNP,
+      Mason: NNP, Mass: NNP, Mass.: NNP, Massachusetts: NNP, Materials: NNPS, Mather: NNP,
+      Maxwell: NNP, May: NNP, Mayer: NNP, Mayland: NNP, Mayor: NNP, Maytag: NNP, Mazda: NNP,
+      McAlpine: NNP, McDermott: NNP, McGraw-Hill: NNP, McLeod: NNP, Meanwhile: RB,
+      Media: NNP, Medical: NNP, Medicine: NNP, Mehrens: NNP, Melamed: NNP, Memphis: NNP,
+      Menem: NNP, Merc: NNP, Mercantile: NNP, Mesnil: NNP, Messrs.: NNPS, Metropolitan: NNP,
+      Mexican: NNP, Mexico: NNP, Miami: NNP, Mich.: NNP, Michael: NNP, Michaels: NNP,
+      Michigan: NNP, Michio: NNP, Mickey: NNP, Mifflin: NNP, Miguel: NNP, Mike: NNP,
+      Miklos: NNP, Milne: NNP, Mining: NNP, Minister: NNP, Ministry: NNP, Minneapolis: NNP,
+      Minneapolis-based: JJ, Mission: NNP, Mitsubishi: NNP, Mitsui: NNP, Mo: NNP,
+      Modifications: NNS, Moleculon: NNP, Monday: NNP, Monetary: NNP, Money: NNP,
+      Monitor: NNP, Montedison: NNP, Monticello: NNP, Moore: NNP, More: JJR, Moreover: RB,
+      Morgan: NNP, Morita: NNP, Mortgage: NNP, Mortimer: NNP, Moscow: NNP, Mossman: NNP,
+      Most: JJS, Mostly: RB, Motor: NNP, Mr.: NNP, Mrs: NNP, Mrs.: NNP, Ms.: NNP,
+      Much: RB, Mulford: NNP, Murakami: NNP, Murray: NNP, My: PRP$, Myron: NNP, N.C: NNP,
+      N.C.: NNP, N.H.: NNP, N.J: NNP, N.J.: NNP, N.J.-based: JJ, N.M.: NNP, N.V.: NNP,
+      N.Y.: NNP, NBC: NNP, NBC-owned: JJ, NCNB: NNP, NEC: NNP, NESB: NNP, NEW: NNP,
+      NIH: NNP, NIH-appointed: JJ, NL: NNP, NTG: NNP, Nagano: NNP, Nagymaros: NNP,
+      Nancy: NNP, Napa: NNP, Napolitan: NNP, Nasdaq: NNP, Nasty: JJ, National: NNP,
+      Nationale: NNP, Nations: NNPS, Neal: NNP, Nederlanden: NNP, Needham: NNP, Negus: NNP,
+      Neil: NNP, Neither: DT, Nekoosa: NNP, Nelms: NNP, Nelson: NNP, Nemeth: NNP,
+      Nestor: NNP, Net: JJ, Netherlands: NNPS, Nevertheless: RB, New: NNP, Newgate: NNP,
+      News: NNP, Newsweek: NNP, Next: JJ, Nicholas: NNP, Nicole: NNP, Nielsen: NNP,
+      Nipponese: JJ, Nissho-Iwai: NNP, 'No': DT, No-Smoking: NNP, Nobel: NNP, None: NNP,
+      Nonetheless: RB, Norman: NNP, North: NNP, Northampton: NNP, Northeast: NNP,
+      Northern: NNP, Norwegian: NNP, Norwest: NNP, Not: RB, Notes: NNPS, Nov.: NNP,
+      Novello: NNP, November: NNP, Now: RB, O'Connor: NNP, O.: NNP, OK: UH, 'ON': NNP,
+      OTC: NNP, OVER: IN, Observing: VBG, Oct.: NNP, October: NNP, Of: IN, Offering: VBG,
+      Officials: NNS, Often: RB, Ogilvy: NNP, Ohio: NNP, Old: NNP, Old-House: NNP,
+      Oliver: NNP, Olsen: NNP, Olympic: NNP, 'On': IN, Once: RB, One: CD, Only: RB,
+      Operations: NNP, Optical: NNP, Opus: NNP, Or: CC, Orchestra: NNP, Orders: NNS,
+      Organization: NNP, Organizations: NNP, Orleans: NNP, Orrick: NNP, Osborn: NNP,
+      Other: JJ, Over: IN, Owner: NNP, P.: NNP, PAP: NNP, PAPERS: NNS, PCs: NNS, PLC: NNP,
+      PLO: NNP, POP: NNP, PRODUCTS: NNP, PS: NNP, PTA: NNP, Pacific: NNP, Packages: NNS,
+      Palestine: NNP, Palestinian: NNP, Palmer: NNP, Pamela: NNP, Panama: NNP, Pardus: NNP,
+      Parent: NNP, Parents: NNP, Paribas: NNP, Parkinson: NNPS, Parliament: NNP, Participants: NNS,
+      Partly: RB, Partners: NNP, Pate: NNP, Patents: NNP, Patricia: NNP, Paul: NNP,
+      Peck: NNP, Pennsylvania: NNP, Pennview: NNP, People: NNS, Perch: NNP, Performing: VBG,
+      Perignon: NNP, Pet: NNP, Peter: NNP, Petroleum: NNP, Petrus: NNP, Phelan: NNP,
+      Philadelphia: NNP, Philippine: NNP, Philippines: NNPS, Phillips: NNP, Pick: VB,
+      Pickens: NNP, Pictures: NNP, Piero: NNP, Pierre: NNP, Pinocchio: NNP, Pitney: NNP,
+      Pittsburgh: NNP, Place: NNP, Plan: NNP, Plans: NNS, Planters: NNP, Platt: NNP,
+      Plaza: NNP, Poland: NNP, Polish: JJ, Political: JJ, Polls: NNS, Pont: NNP, Poor: NNP,
+      Poore: NNP, Porter: NNP, Portugal: NNP, Post: NNP, Powers: NNP, Practical: NNP,
+      Pramual: NNP, Pratt: NNP, Preferences: NNPS, Preliminary: JJ, President: NNP,
+      Pressures: NNS, Previously: RB, Price: NNP, Prime: NNP, Princeton: NNP, Prior: RB,
+      Private: JJ, Prize: NNP, Pro-forma: JJ, Producers: NNS, Productions: NNPS, Professional: NNP,
+      Program: NNP, Prosecutors: NNS, Protection: NNP, Providence: NNP, Pty.: NNP,
+      Public: NNP, Publications: NNP, Publishers: NNP, Publishing: NNP, Purchase: NNP,
+      Purchasing: NNP, Purepac: NNP, Queen: NNP, R: NNP, R.: NNP, R.I.: NNP, R.P.: NNP,
+      RBC: NNP, Radio: NNP, Rail: NNP, Raleigh: NNP, Rally: NNP, Ramirez: NNP, Random: NNP,
+      Ranieri: NNP, Rapanelli: NNP, Rate: NNP, Rather: RB, Ratners: NNP, Raton: NNP,
+      Raul: NNP, Reagan: NNP, Reames: NNP, Red: NNP, Regarded: VBN, Regulatory: NNP,
+      Rekindled: VBN, Related: VBN, Remember: VB, Rent-A-Car: NNP, Rep.: NNP, Report: NNP,
+      Representative: NNP, Republican: JJ, Research: NNP, Reserve: NNP, Reserves: NNS,
+      Resistance: NNP, Restaurant: NNP, Retail: JJ, Retin-A: NNP, Revenue: NNP, Revolution: NNP,
+      Rexinger: NNP, Rhone: NNP, Rice: NNP, Richard: NNP, Richebourg: NNP, Richmond: NNP,
+      Rick: NNP, Ricken: NNP, Rieslings: NNPS, Riserva: NNP, River: NNP, Robert: NNP,
+      Robertson: NNP, Rock: NNP, Rockefeller: NNP, Rockford: NNP, Roederer: NNP, Roger: NNP,
+      Roman: JJ, Romanee-Conti: NNP, Ronald: NNP, Roof: NNP, Ross: NNP, Rothschild: NNP,
+      Rotie: NNP, Rowe: NNP, Royal: NNP, Rozell: NNP, Rubber: NNP, Rubicam: NNP, Rubinfien: NNP,
+      Rudolph: NNP, Russian: JJ, Rust: NNP, S&P: NNP, S.p: NNP, S.p.A.: NNP, SALARIES: NNS,
+      SAT: NNP, SCI: NNP, SEC: NNP, SHAREDATA: NNP, SWITCHING: VBG, Sabhavasu: NNP,
+      Sachs: NNP, Sacramento: NNP, Sacramento-based: JJ, Safety: NNP, Saitama: NNP,
+      Sale: NNP, Sales: NNS, Salmore: NNP, Salon: NNP, Salty: NNP, Samnick: NNP, Samuel: NNP,
+      San: NNP, Sandifer: NNP, Santa: NNP, Sasaki: NNP, Satrum: NNP, Saudi: NNP, Sauternes: NNP,
+      Sauvignon: NNP, Savings: NNPS, Says: VBZ, Scandinavian: JJ, Schaefer: NNP, Scherer: NNP,
+      Scholastic: NNP, School: NNP, Scoring: NNP, Scotia: NNP, Sea: NNP, Seagate: NNP,
+      Seahorse: NNP, Seats: NNS, Seattle: NNP, Sebastian: NNP, Secilia: NNP, Second: NNP,
+      Secretary: NNP, Securities: NNP, Security: NNP, Sen.: NNP, Senate: NNP, Senate-House: JJ,
+      Send: VB, Senior: NNP, Seniors: NNP, Seoul: NNP, Separately: RB, Sept.: NNP,
+      September: NNP, Service: NNP, Services: NNPS, Several: JJ, Seymour: NNP, Shapiro: NNP,
+      ShareData: NNP, She: PRP, Shearson: NNP, Sheep: NNP, Shelby: NNP, Sherwin: NNP,
+      Sherwood: NNP, Shipments: NNS, Shorter: JJR, Show: NNP, Shrum: NNP, Shugart: NNP,
+      Sidewalk: NNP, Siegal: NNP, Sierra: NNP, Signet: NNP, Signs: NNS, Silicon: NNP,
+      Simmons: NNP, Simon: NNP, Since: IN, Singapore: NNP, Sir: NNP, Siti: NNP, Sixth: NNP,
+      Skills: NNS, Skinner: NNP, Skokie: NNP, Sloan: NNP, Smaby: NNP, Smelting: NNP,
+      Smith: NNP, So: RB, Social: NNP, Society: NNP, Soho: NNP, Sol: NNP, Solaia: NNP,
+      Some: DT, Sonnett: NNP, Sony: NNP, Soon: RB, Soup: NNP, Souper: NNP, Soups: NNP,
+      South: NNP, Southeast: NNP, Southern: NNP, Soviet: JJ, Soviets: NNS, Spain: NNP,
+      Speedway: NNP, Spielvogel: NNP, Spillane: NNP, Spiro: NNP, Spoon: NNP, Springs: NNPS,
+      Squier: NNP, St.: NNP, Stag: NNP, Stamford: NNP, Standard: NNP, Standardized: JJ,
+      Standing: VBG, Stanford: NNP, Stanley: NNP, Stark: NNP, State: NNP, Stearn: NNP,
+      Steel: NNP, Steelworkers: NNP, Stena: NNP, Stephen: NNP, Stephens: NNP, Sterling: NNP,
+      Steve: NNP, Steven: NNP, Stevens: NNP, Still: RB, Stock: NNP, Stockholm: NNP,
+      Stores: NNP, Stories: NNP, Story: NNP, Strait: NNP, Strategic: JJ, Street: NNP,
+      Strindberg: NNP, Stronach: NNP, Structural: NNP, Stung: VBN, Such: JJ, Sugarman: NNP,
+      Sulaiman: NNP, Sullivan: NNP, Supportive: JJ, Supreme: NNP, Sutcliffe: NNP,
+      Symphony: NNP, Synergistics: NNP, System: NNP, Systems: NNPS, T-shirts: NNS,
+      T.: NNP, TEXAS: NNP, THAT: WDT, THE: DT, THREE: CD, TO: TO, TROUBLES: NNS, TRS-80: NNP,
+      TV: NN, Tache: NNP, Taipei: NNP, Taittinger: NNP, Taiwan: NNP, Taizo: NNP, Take: VB,
+      Takeshi: NNP, Takuma: NNP, Talcott: NNP, Tandy: NNP, Tarwhine: NNP, Tassinari: NNP,
+      Tatsunori: NNP, Technology: NNP, Telegraph: NNP, Telephone: NNP, Television: NNP,
+      Temple: NNP, Tenn.: NNP, Terms: NNS, Terrace: NNP, Terrence: NNP, Test: NNP,
+      Test-preparation: JJ, Texas: NNP, Thai: NNP, Thailand: NNP, That: DT, The: DT,
+      Their: PRP$, Then: RB, There: EX, These: DT, They: PRP, Think: VB, This: DT,
+      Thomas: NNP, Those: DT, Thrall: NNP, Three: NNP, Thursday: NNP, Time: NNP, Timex: NNP,
+      Tip: NNP, Tiphook: NNP, Tire: NNP, To: TO, Tokyo: NNP, Tom: NNP, Toronto: NNP,
+      Toronto-based: JJ, Tourism: NNP, Townes: NNP, Toys: NNPS, Trade: NNP, Trading: NNP,
+      Tramp: NNP, Transportation: NNP, Traverse: NNP, Treasury: NNP, Trettien: NNP,
+      Trockenbeerenauslesen: NNP, Trojan: NNP, Trotter: NNP, Trudeau: NNP, Trust: NNP,
+      Trustco: NNP, Tube: NNP, Tuesday: NNP, Turkey: NNP, Tuscany: NNP, Typically: RB,
+      U.K.: NNP, U.S.: NNP, U.S.-Japan: JJ, U.S.-Japanese: JJ, U.S.A.: NNP, U.S.S.R.: NNP,
+      UPHELD: VBN, US$: $, Under: IN, Unico: NNP, Union: NNP, United: NNP, University: NNP,
+      Univest: NNP, Unless: IN, Unlike: IN, Until: IN, Upham: NNP, Us: NNP, Utilities: NNP,
+      Va.: NNP, Valhi: NNP, Valley: NNP, VanSant: NNP, Varying: JJ, Vega: NNP, Venture: NNP,
+      Vermont: NNP, Viacom: NNP, Vice: NNP, Vichy: NNP, Victor: NNP, Video: NNP, Village: NNP,
+      Vineyard: NNP, Vinken: NNP, Virgin: NNP, Virginia: NNP, Virginians: NNPS, Virtually: RB,
+      Vitulli: NNP, Vose: NNP, W.R.: NNP, WAFA: NNP, WFRR: NNP, WHAS: NNP, WPP: NNP,
+      WTVJ: NNP, Wa: NNP, Wakayama: NNP, Wakui: NNP, Walkman: NNP, Wall: NNP, Walt: NNP,
+      Walters: NNP, War: NNP, Ward: NNP, Warner: NNP, Warren: NNP, Warrenton: NNP,
+      Warsaw: NNP, Washington: NNP, Washington-based: JJ, Waste: NNP, Watanabe: NNP,
+      Watson: NNP, Wayland: NNP, Wayne: NNP, We: PRP, Wednesday: NNP, Week: NNP, Weisfield: NNP,
+      Wells: NNP, West: NNP, Westborough: NNP, Western: JJ, Westport: NNP, What: WP,
+      Wheeland: NNP, When: WRB, Where: WRB, While: IN, White: NNP, Whiting: NNP, Who: WP,
+      Why: WRB, Wickliffe: NNP, Wilbur: NNP, Wilcox: NNP, Wild: NNP, Wilder: NNP,
+      Wilfred: NNP, William: NNP, Wilson: NNP, Wilton: NNP, Wine: NNP, Winiarski: NNP,
+      Winning: VBG, With: IN, Without: IN, Women: NNP, Wood: NNP, Woodcliff: NNP,
+      Woodrow: NNP, Woodward: NNP, Workers: NNS, Worksheets: NNS, World: NNP, World-Wide: NNP,
+      Wozniak: NNP, Writers: NNPS, Wu: NNP, X: NNP, Yale: NNP, Yamamoto: NNP, Yasser: NNP,
+      Yeargin: NNP, Yet: RB, Yields: NNS, York: NNP, York-based: JJ, You: PRP, Young: NNP,
+      Your: PRP$, Yquem: NNP, Zaharah: NNP, Zealand: NNP, Zuckerman: NNP, '`': '``',
+      '``': '``', a: DT, abating: VBG, abide: VB, able: JJ, abortion-related: JJ,
+      abortions: NNS, about: IN, above: IN, academic: JJ, accelerated: VBN, accepted: VBN,
+      accepting: VBG, accessories: NNS, accidentally: RB, accidents: NNS, accommodate: VB,
+      according: VBG, account: NN, accountants: NNS, accounting: VBG, accounts: NNS,
+      accrued: VBN, accumulated: VBN, accurate: JJ, accurately: RB, accused: VBN,
+      aces: VBZ, achieve: VB, achieved: VBN, achieving: VBG, acknowledging: VBG, acquire: VB,
+      acquired: VBN, acquiring: VBG, acquisitions: NNS, acres: NNS, across: IN, act: VB,
+      acted: VBD, acting: JJ, actions: NNS, active: JJ, activities: NNS, acts: VBZ,
+      actual: JJ, actually: RB, adapted: VBD, add: VB, added: VBD, adding: VBG, additional: JJ,
+      additions: NNS, address: VB, addresses: NNS, addressing: VBG, adds: VBZ, adequately: RB,
+      adjusted: VBN, adjusting: VBG, administrative: JJ, administrators: NNS, admits: VBZ,
+      admitted: VBD, adopted: VBN, ads: NNS, adults: NNS, advanced: JJ, advancing: VBG,
+      advantages: NNS, advertise: VB, advertised: VBN, advertisements: NNS, advertisers: NNS,
+      advertising: NN, advertorial: JJ, advised: VBD, advocate: VBP, advocates: NNS,
+      affairs: NNS, affiliates: NNS, affordable: JJ, afraid: JJ, after: IN, again: RB,
+      against: IN, aggravated: VBD, aggressive: JJ, aggressively: RB, aghast: JJ,
+      ago: RB, agree: VBP, agreed: VBD, agreeing: VBG, agrees: VBZ, ahead: RB, ai: VBP,
+      aid: NN, aides: NNS, aids: NNS, ailing: VBG, aim: VB, aimed: VBN, aiming: VBG,
+      air: VBP, aired: VBD, airlines: NNS, airports: NNS, aisles: NNS, alarmed: VBN,
+      alerts: VBZ, alienated: VBN, alive: JJ, all: DT, allegations: NNS, alleged: VBN,
+      allegedly: RB, alleging: VBG, allocated: VBN, allow: VBP, allowed: VBN, almost: RB,
+      alone: RB, along: IN, already: RB, also: RB, alternatives: NNS, although: IN,
+      altogether: RB, altruistic: JJ, alumni: NNS, always: RB, ambitions: NNS, ambitious: JJ,
+      amend: VB, amended: VBN, amending: VBG, amid: IN, among: IN, amounts: NNS, amphobiles: NNS,
+      amusing: JJ, an: DT, analysts: NNS, analyze: VB, ancillary: JJ, and: CC, angry: JJ,
+      announce: VB, announced: VBD, annual: JJ, annually: RB, another: DT, answer: VB,
+      answers: NNS, anti-abortion: JJ, anti-abortionists: NNS, anti-takeover: JJ,
+      anticipated: VBN, anticipates: VBZ, anticipating: VBG, antitrust-law: JJ, anxieties: NNS,
+      anxious: JJ, any: DT, anywhere: RB, apiece: RB, apologize: VB, apologizing: VBG,
+      apparently: RB, appeal: VBP, appealing: VBG, appeals: NNS, appear: VBP, appeared: VBD,
+      appears: VBZ, appliances: NNS, applications: NNS, applied: VBD, apply: VB, appointed: VBN,
+      apprehensive: JJ, approach: VBP, approaches: NNS, appropriate: JJ, approve: VB,
+      approved: VBD, approves: VBZ, approximately: RB, architectural: JJ, are: VBP,
+      areas: NNS, argue: VBP, argued: VBN, argues: VBZ, arguing: VBG, arguments: NNS,
+      arising: VBG, around: IN, arrows: NNS, articles: NNS, as: IN, asbestos-related: JJ,
+      ask: VB, asked: VBD, asking: VBG, asks: VBZ, aspects: NNS, aspersions: NNS,
+      aspires: VBZ, assemble: VB, assembled: VBN, asserted: VBD, asserting: VBG, assertions: NNS,
+      asset-sale: JJ, assets: NNS, assigned: VBN, assist: VBP, assistant: NN, assisted: VBN,
+      associated: VBN, associates: NNS, assume: VBP, assumed: VBN, assuming: VBG,
+      assured: VBN, astronomical: JJ, at: IN, athletic: JJ, attached: VBD, attack: NN,
+      attacks: NNS, attempting: VBG, attempts: VBZ, attending: VBG, attorney-client: JJ,
+      attorneys: NNS, attracted: VBN, attracting: VBG, attractive: JJ, attracts: VBZ,
+      auctioned: VBN, auctions: NNS, audiocassettes: NNS, audit: VB, austere: JJ,
+      authorities: NNS, authorized: VBD, authors: NNS, autions: NNS, auto-safety: JJ,
+      automatic: JJ, automobiles: NNS, automotive: JJ, automotive-lighting: JJ, automotive-parts: JJ,
+      autos: NNS, available: JJ, average: JJ, averaged: VBD, avoid: VB, awarded: VBN,
+      awarding: VBG, awards: VBZ, aware: JJ, away: RB, awful: JJ, awfully: RB, b: LS,
+      back: NN, backlogs: NNS, bad: JJ, badly: RB, bags: NNS, bald-faced: JJ, balked: VBD,
+      ballplayers: NNS, balls: NNS, ban: NN, bankers: NNS, banking: NN, bankroll: VBP,
+      banks: NNS, banned: VBN, banning: VBG, bans: VBZ, bar: NN, barred: VBN, barrels: NNS,
+      barriers: NNS, bars: NNS, based: VBN, bases: NNS, basic: JJ, battery-operated: JJ,
+      battles: NNS, be: VB, bearish: JJ, beat: VBP, beaten: JJ, beautiful: JJ, became: VBD,
+      because: IN, become: VBN, becomes: VBZ, becoming: VBG, beds: NNS, been: VBN,
+      before: IN, beforehand: RB, began: VBD, begin: VB, beginning: VBG, begot: VBD,
+      behind: IN, being: VBG, believe: VBP, believed: VBN, believes: VBZ, belong: VB,
+      belonging: VBG, belongs: VBZ, below: IN, belts: NNS, beneficiaries: NNS, benefited: VBD,
+      benefits: NNS, benevolent: JJ, benign: JJ, best: JJS, best-selling: JJS, besuboru: FW,
+      better: RBR, between: IN, biannual: JJ, bid: NN, bidders: NNS, bids: NNS, big: JJ,
+      big-ticket: JJ, big-time: JJ, bigger: JJR, biggest: JJS, bilateral: JJ, billed: VBD,
+      billings: NNS, billion: CD, billions: NNS, bills: NNS, binders: NNS, black-and-white: JJ,
+      blacks: NNS, blamed: VBN, bled: VBD, blind: JJ, blinks: VBZ, blip: VBP, block: VB,
+      blue: JJ, boarding: VBG, boast: VB, bold: JJ, bolster: VB, bonds: NNS, bonuses: NNS,
+      book: NN, booked: VBD, booklets: NNS, books: NNS, boomers: NNS, booming: VBG,
+      boost: VB, boosted: VBN, boosts: VBZ, borrowed: VBN, borrowers: NNS, borrowing: NN,
+      botched: JJ, both: DT, bottles: NNS, bottom: NN, bought: VBD, bowed: VBD, boyfriends: NNS,
+      boys: NNS, branches: NNS, breach: VB, breaks: VBZ, bricks: NNS, brief: JJ, bright: JJ,
+      brightest: JJS, brilliant: JJ, bring: VB, brings: VBZ, broad: JJ, broader: JJR,
+      broke: VBD, broken: VBN, brokers: NNS, brought: VBN, build: VB, building: NN,
+      buildings: NNS, builds: VBZ, built: VBN, built-from-kit: JJ, bullets: NNS, bundling: VBG,
+      buoyed: VBN, burdens: NNS, bureaucratic: JJ, burned: VBN, buses: NNS, busiest: JJS,
+      businesses: NNS, businessmen: NNS, busloads: NNS, but: CC, buttoned-down: JJ,
+      buy: VB, buy-back: NN, buy-out: NN, buyers: NNS, buying: VBG, by: IN, ca: MD,
+      cabs: NNS, calculate: VBP, calculations: NNS, call: VB, called: VBN, callers: NNS,
+      calls: VBZ, came: VBD, campaigns: NNS, can: MD, cancer-causing: JJ, candidates: NNS,
+      capital-gains: NNS, capped: VBN, capsules: NNS, captivating: JJ, capture: VB,
+      car-safety: JJ, care: VB, cared: VBD, careers: NNS, carefree: JJ, carefully: RB,
+      carried: VBN, carries: VBZ, carry: VBP, carrying: VBG, cars: NNS, cases: NNS,
+      cash-flow: JJ, cash-rich: JJ, cast: VBN, casting: VBG, casts: VBZ, catch: VB,
+      categories: NNS, caught: VBN, cause: VBP, caused: VBN, causing: VBG, cautiously: RB,
+      celebrate: VB, centers: NNS, central: JJ, cents: NNS, certain: JJ, certainly: RB,
+      certificates: NNS, certified: JJ, chaired: VBN, challenging: VBG, change: VB,
+      changed: VBN, changes: NNS, channel: VBP, chaotic: JJ, characterizing: VBG,
+      characters: NNS, charge: NN, charged: VBN, charges: NNS, charts: NNS, chary: JJ,
+      chastised: VBN, cheat: VB, check: VB, checking: NN, checks: NNS, cheerleaders: NNS,
+      chefs: NNS, chemicals: NNS, chief: NN, chiefly: RB, children: NNS, chips: NNS,
+      chocolate: JJ, choose: VB, chopped: VBN, chosen: VBN, cigarettes: NNS, circumstances: NNS,
+      cite: VBP, cited: VBN, cites: VBZ, cities: NNS, citing: VBG, citizens: NNS,
+      claim: VBP, claiming: VBG, claims: VBZ, clamped: VBN, clarified: VBN, clarify: VB,
+      classed: VBN, classes: NNS, classic: JJ, classical: JJ, classics: NNS, classifications: NNS,
+      classified: VBN, clean: VB, cleaned: VBN, clear: JJ, clearing: VBG, clearly: RB,
+      clerks: NNS, clients: NNS, climbed: VBN, climbing: VBG, clobbered: VBN, close: VB,
+      closed: VBD, closed-end: JJ, closely: RB, closer: JJR, clouds: NNS, clubs: NNS,
+      clues: NNS, cluttered: VBN, co-developers: NNS, cocky: JJ, cohesive: JJ, coincidental: JJ,
+      collaborated: VBD, collapsed: VBN, colleagues: NNS, collected: VBN, collecting: VBG,
+      collections: NNS, collective-bargaining: JJ, color: VB, combat: VB, combinations: NNS,
+      combined: VBN, combines: VBZ, come: VBN, comedies: NNS, comes: VBZ, comfortable: JJ,
+      coming: VBG, command: VB, commanded: VBN, comment: VB, commenting: VBG, comments: NNS,
+      commercial: NN, commercials: NNS, commitments: NNS, committed: VBD, committing: VBG,
+      commodities: NNS, common: JJ, communications: NNS, companies: NNS, comparable: JJ,
+      compared: VBN, compatible: JJ, compel: VB, compensate: VB, compete: VB, competed: VBN,
+      competing: VBG, competitions: NNS, competitive: JJ, competitors: NNS, compiled: VBN,
+      complain: VBP, complained: VBD, complaints: NNS, complete: VB, completed: VBD,
+      completely: RB, complicate: VB, complicated: JJ, composite: JJ, comprehensive: JJ,
+      computer-aided: JJ, computer-generated: JJ, computer-system-design: JJ, computerize: VB,
+      computerized: JJ, computers: NNS, concedes: VBZ, concentrate: VB, concentrated: VBD,
+      concerned: VBN, concerns: NNS, concessions: NNS, concluded: VBD, condemned: VBN,
+      condemning: VBG, conditional: JJ, conditions: NNS, conducting: VBG, confidential: JJ,
+      confines: NNS, confirmed: VBN, conflicts: NNS, conforms: VBZ, confrontational: JJ,
+      confuse: VB, confused: JJ, congressional: JJ, congressmen: NNS, consecutive: JJ,
+      consider: VB, considerable: JJ, considerably: RB, considered: VBN, considering: VBG,
+      consist: VBP, consists: VBZ, consonant: JJ, conspicuous: JJ, constraints: NNS,
+      consultants: NNS, consumer-driven: JJ, consumers: NNS, contacted: VBN, contain: VBP,
+      contained: VBD, contains: VBZ, contemporary: JJ, contends: VBZ, content: NN,
+      contests: NNS, continue: VB, continued: VBD, continues: VBZ, continuing: VBG,
+      contract: NN, contracted: VBD, contractors: NNS, contracts: NNS, contrary: JJ,
+      contrast: VBP, contributed: VBD, contributing: VBG, contributions: NNS, contributors: NNS,
+      controlled: JJ, controlling: VBG, controls: NNS, controversial: JJ, convenient: JJ,
+      conventional: JJ, conversations: NNS, converted: VBN, convertible: JJ, converting: VBG,
+      convey: VBP, convicted: VBN, convinced: VBN, cop-killer: JJ, copied: VBD, copies: NNS,
+      copycats: NNS, copyrights: NNS, corners: NNS, corporate: JJ, corporations: NNS,
+      correct: JJ, correcting: VBG, corridors: NNS, cost: NN, costly: JJ, costs: NNS,
+      could: MD, counterparts: NNS, counting: VBG, countries: NNS, counts: VBZ, coupled: VBN,
+      couples: NNS, court-ordered: JJ, courts: NNS, cover: VB, covered: VBN, cozy: JJ,
+      crack: VB, craft: VB, cranked: VBD, crashes: NNS, create: VBP, created: VBN,
+      creating: VBG, creditors: NNS, credits: NNS, crews: NNS, crib: NN, criminal: JJ,
+      crippled: VBN, critical: JJ, criticized: VBD, critics: NNS, crossed: VBN, crossing: VBG,
+      crowded: VBN, crucial: JJ, crude: JJ, cruising: VBG, crushed: JJ, cry: VBP,
+      cues: NNS, cultivated: VBN, curb: VB, cure: VB, curled: VBD, curly: JJ, currencies: NNS,
+      current: JJ, currently: RB, custom-chip: JJ, customers: NNS, cut: VBD, cutbacks: NNS,
+      cute: JJ, cutthroat: JJ, cutting: VBG, cuvees: NNS, daily: JJ, damaged: VBN,
+      damages: NNS, damn: RB, dams: NNS, dark: JJ, dashes: NNS, data: NNS, dating: VBG,
+      days: NNS, de: IN, dead: JJ, dead-eyed: JJ, deal: NN, dealers: NNS, deals: NNS,
+      deaths: NNS, debentures: NNS, debts: NNS, decades: NNS, deceptive: JJ, decide: VB,
+      decided: VBD, decides: VBZ, decisions: NNS, declared: VBN, decline: NN, declined: VBD,
+      declines: NNS, declining: VBG, decried: VBD, deem: VBP, deemed: VBN, default: NN,
+      defeat: VB, defeats: VBZ, defended: VBD, define: VB, definitive: JJ, defuse: VB,
+      degenerative: JJ, degrees: NNS, delay: VBP, delete: VB, delivering: VBG, deluxe: JJ,
+      demand: NN, demanding: VBG, democratic: JJ, demographic: JJ, denied: VBN, denies: VBZ,
+      deny: VB, depend: VB, depended: VBD, depending: VBG, depositary: NN, deposits: NNS,
+      depressed: VBN, describe: VBP, described: VBN, describes: VBZ, deserve: VBP,
+      design: VB, designated: VBN, designed: VBN, designing: VBG, desirable: JJ, desperately: RB,
+      despite: IN, desultory: JJ, detailed: JJ, details: NNS, deteriorating: VBG,
+      determined: VBN, deterring: VBG, devastating: VBG, develop: VB, developed: VBD,
+      developing: VBG, developments: NNS, develops: VBZ, devices: NNS, devised: VBD,
+      devote: VB, devoted: VBD, diagnosed: VBN, did: VBD, die: VB, died: VBN, differences: NNS,
+      different: JJ, differential: JJ, difficult: JJ, diplomatic: JJ, direct: JJ,
+      direct-investment: JJ, directing: VBG, directly: RB, directors: NNS, dirty: JJ,
+      disaffected: JJ, disagree: VBP, disagreeable: JJ, disappointed: VBN, disciplinary: JJ,
+      disclosed: VBN, disclosing: VBG, discontinue: VB, discounts: NNS, discourage: VB,
+      discouraging: VBG, discovered: VBN, discredit: VB, discretionary: JJ, discuss: VB,
+      discussing: VBG, discussions: NNS, diseases: NNS, disembodied: JJ, dismissed: VBN,
+      disparate: JJ, display: VB, disproportionate: JJ, disputed: VBN, disputes: NNS,
+      dissolves: VBZ, distinguished: VBD, distorted: JJ, districts: NNS, disturbing: JJ,
+      disturbs: VBZ, diversify: VB, diversifying: VBG, diversionary: JJ, divest: VB,
+      divided: VBN, dividends: NNS, do: VBP, docile: JJ, doctors: NNS, documents: NNS,
+      does: VBZ, doing: VBG, dollar-denominated: JJ, dollars: NNS, domestic: JJ, dominating: VBG,
+      doors: NNS, double: VB, doubled: VBD, down: RB, downright: RB, downward: JJ,
+      dozens: NNS, drag-down: JJ, dramatic: JJ, dramatically: RB, draw: VBP, drawbacks: NNS,
+      dreadful: JJ, dreamed: VBD, dreamt: VBD, drearier: RBR, drifted: VBD, drink: VBP,
+      drinking: VBG, drinks: NNS, drive: VBP, drivers: NNS, drives: NNS, driving: VBG,
+      drooled: VBD, drop: NN, drop-off: JJ, dropped: VBD, drums: NNS, dry: JJ, due: JJ,
+      dumbfounded: JJ, dummies: NNS, dumped: VBN, durable: JJ, durable-goods: NNS,
+      during: IN, dusty: JJ, duties: NNS, duty-free: JJ, dynamics: NNS, each: DT,
+      eager: JJ, earlier: JJR, earliest: JJS, early: JJ, earn: VB, earned: VBD, earnings: NNS,
+      earns: VBZ, ease: VB, eased: VBD, eases: VBZ, easier: JJR, easily: RB, easy: JJ,
+      eat: VBP, eating: VBG, eclectic: JJ, economic: JJ, economical: JJ, economics: NNS,
+      economies: NNS, economists: NNS, editions: NNS, editors: NNS, educated: VBN,
+      educational: JJ, educators: NNS, effective: JJ, effectively: RB, effects: NNS,
+      efficiencies: NNS, efforts: NNS, eight-count: JJ, eighth: JJ, either: RB, elaborate: VB,
+      elderly: JJ, elected: VBN, elections: NNS, electric: JJ, electronic: JJ, electronics: NNS,
+      elevators: NNS, eligible: JJ, eliminate: VB, eliminated: VBN, eliminates: VBZ,
+      else: RB, elsewhere: RB, elusive: JJ, embarrassing: JJ, embroiled: VBN, emerge: VB,
+      emergencies: NNS, emerges: VBZ, emerging: VBG, emotions: NNS, employed: VBN,
+      employees: NNS, employs: VBZ, empowered: VBN, empty: JJ, enabled: VBD, enabling: VBG,
+      enact: VB, enclosed: VBN, encourage: VBP, encourages: VBZ, encroaching: VBG,
+      end: NN, ended: VBD, ending: VBG, endless: JJ, endorsed: VBD, ends: VBZ, energetic: JJ,
+      energy-services: JJ, enforce: VB, engaging: JJ, engineers: NNS, enhanced: VBN,
+      enlarged: JJ, enormous: JJ, enormously: RB, enough: RB, enraged: VBD, ensembles: NNS,
+      ensnarled: VBN, entangled: JJ, entered: VBD, entering: VBG, enters: VBZ, entertain: VB,
+      entertaining: JJ, entire: JJ, entirely: RB, entitles: VBZ, entrench: VB, enviable: JJ,
+      environmental: JJ, environmentalists: NNS, episodes: NNS, equal: JJ, equally: RB,
+      equals: VBZ, equip: VB, equipped: VBN, erasures: NNS, erode: VB, errors: NNS,
+      erudite: JJ, escalated: VBN, especially: RB, espouse: VBP, essays: NNS, essentially: RB,
+      establishing: VBG, estimated: VBN, estimates: VBZ, ethical: JJ, ethics: NNS,
+      evaluated: VBD, evaluating: VBG, evaporated: VBD, even: RB, evenly: RB, events: NNS,
+      eventually: RB, ever: RB, every: DT, everyday: JJ, exact: JJ, exactly: RB, examples: NNS,
+      exceed: VBP, exceedingly: RB, except: IN, exceptional: JJ, exceptionally: RB,
+      excess: JJ, excesses: NNS, excessive: JJ, excessively: RB, exchanging: VBG,
+      excise: JJ, excited: VBN, exciting: JJ, exclusive: JJ, exclusively: RB, execs: NNS,
+      execute: VB, executed: VBN, executing: VBG, executive: NN, executives: NNS,
+      exempt: JJ, exercisable: JJ, exercise: VB, exercised: VBN, exhausted: VBN, exhibited: VBN,
+      exist: VB, existed: VBN, existing: VBG, exists: VBZ, expand: VB, expanded: VBD,
+      expanding: VBG, expands: VBZ, expect: VBP, expectations: NNS, expected: VBN,
+      expecting: VBG, expects: VBZ, expedited: VBN, expenses: NNS, expensive: JJ,
+      experience: NN, experts: NNS, expire: VBP, expired: VBD, expires: VBZ, explain: VB,
+      explained: VBD, explains: VBZ, explanatory: JJ, explosive: JJ, export: NN, export-oriented: JJ,
+      exports: NNS, exposed: VBN, exposures: NNS, expressed: VBN, expunged: VBN, extend: VB,
+      extended: JJ, external: JJ, extra: JJ, extramarital: JJ, extraordinary: JJ,
+      extremely: RB, eyes: NNS, fabled: JJ, fabricate: VB, face: NN, faces: VBZ, facial: JJ,
+      facing: VBG, factors: NNS, faded: VBN, fail: VBP, failed: VBD, failing: VBG,
+      fails: VBZ, fairly: RB, fallen: VBN, falling: VBG, familiar: JJ, family-planning: JJ,
+      fans: NNS, far: RB, fare: VBP, fared: VBD, fast: RB, faster: JJR, fastest: JJS,
+      fat: JJ, fatalities: NNS, fattened: VBN, favor: NN, favored: VBD, favorite: JJ,
+      fawning: VBG, feared: VBD, fearful: JJ, fears: NNS, featured: VBD, features: NNS,
+      featuring: VBG, fed: VBD, federal: JJ, federally: RB, feed: VBP, feel: VBP,
+      feeling: VBG, feels: VBZ, fees: NNS, feet: NNS, fell: VBD, fellow: JJ, felt: VBD,
+      female: JJ, fetal: JJ, fetal-tissue: JJ, feudal: JJ, few: JJ, fewer: JJR, fibers: NNS,
+      fields: NNS, fierce: JJ, fifth: JJ, fighters: NNS, fighting: VBG, fights: NNS,
+      figures: NNS, file: VB, filed: VBN, fill: VB, fills: VBZ, films: NNS, filters: NNS,
+      final: JJ, finally: RB, finance: NN, financed: VBN, financial: JJ, financially: RB,
+      financing: NN, find: VB, finding: VBG, findings: NNS, fine: NN, finest: JJS,
+      finished: VBD, fired: VBD, fires: NNS, firings: NNS, firms: NNS, first: JJ,
+      first-time: JJ, fiscal: JJ, fits: NNS, five: CD, five-inch: JJ, five-point: JJ,
+      five-year: JJ, fixed: VBN, fixed-rate: JJ, fixtures: NNS, flashy: JJ, flat: JJ,
+      floating-rate: JJ, flooded: VBN, flourish: VB, flows: NNS, fluent: JJ, flush: VBP,
+      focused: VBN, focusing: VBG, folks: NNS, followed: VBD, following: VBG, follows: VBZ,
+      food-shop: JJ, for: IN, force: NN, forced: VBN, forces: VBZ, forcing: VBG, forecasts: NNS,
+      foreign: JJ, foreign-stock: JJ, forgiven: VBN, formal: JJ, formed: VBN, former: JJ,
+      formerly: RB, forms: NNS, forthcoming: JJ, forward: RB, foul: JJ, found: VBD,
+      foundations: NNS, foundering: VBG, four: CD, four-color: JJ, four-year-old: JJ,
+      fourth: JJ, fractionally: RB, fragile: JJ, frankly: RB, frantic: JJ, free: JJ,
+      free-lance: JJ, frequently: RB, fresh: JJ, fretted: VBD, friendly: JJ, friends: NNS,
+      from: IN, front: NN, fronts: NNS, frozen: VBN, frustrating: VBG, fueled: VBN,
+      full: JJ, full-length: JJ, fully: RB, fumes: VBZ, fuming: VBG, functions: NNS,
+      fund: NN, funded: VBN, funds: NNS, funny: JJ, furious: JJ, further: JJ, future: JJ,
+      futures: NNS, gain: VB, gained: VBD, gaining: VBG, gains: NNS, games: NNS, gangs: NNS,
+      gauge: VB, gauges: VBZ, gauging: VBG, gave: VBD, general: JJ, generally: RB,
+      generate: VB, generations: NNS, genes: NNS, genuine: JJ, geometrical: JJ, get: VB,
+      get-out-the-vote: JJ, gets: VBZ, getting: VBG, giant: NN, giants: NNS, gifts: NNS,
+      give: VB, giveaways: NNS, given: VBN, gives: VBZ, giving: VBG, glamorize: VB,
+      global: JJ, globally: RB, gloomy: JJ, go: VB, goes: VBZ, going: VBG, gone: VBN,
+      good: JJ, good-hearted: JJ, good-natured: JJ, goodies: NNS, goods: NNS, got: VBD,
+      gotten: VBN, governors: NNS, graders: NNS, gradual: JJ, gradually: RB, grand: JJ,
+      grant: VB, grants: NNS, grapes: NNS, graphs: NNS, great: JJ, greater: JJR, greatly: RB,
+      green: JJ, grew: VBD, groups: NNS, growing: VBG, grown: VBN, grows: VBZ, growths: NNS,
+      guaranteed: VBN, gubernatorial: JJ, guests: NNS, guided: VBD, guilty: JJ, guys: NNS,
+      gyrations: NNS, had: VBD, half: NN, half-hour: JJ, halls: NNS, halts: NNS, halve: VB,
+      hampered: VBN, handle: VB, handled: VBN, hands: NNS, hangs: VBZ, happen: VB,
+      happening: VBG, happens: VBZ, happier: JJR, harass: VB, hard: RB, hard-drinking: JJ,
+      hard-hitting: JJ, hardly: RB, harms: VBZ, harsh: JJ, harshly: RB, has: VBZ,
+      hauled: VBD, have: VBP, having: VBG, hazardous: JJ, he: PRP, head: NN, headquarters: NNS,
+      headrests: NNS, heads: VBZ, healthy: JJ, heard: VBN, heated: JJ, heating: VBG,
+      heavily: RB, heavy: JJ, heavy-duty: JJ, hefty: JJ, held: VBN, help: VB, helped: VBN,
+      helping: VBG, her: PRP$, here: RB, herself: PRP, hid: VBD, hierarchical: JJ,
+      high: JJ, high-balance: JJ, high-priced: JJ, high-rate: JJ, high-rise: JJ, high-stakes: JJ,
+      high-tech: JJ, high-yield: JJ, higher: JJR, highest: JJS, highlight: VB, highly: RB,
+      him: PRP, himself: PRP, hire: VBP, his: PRP$, historical: JJ, historically: RB,
+      hit: VBN, hitting: VBG, hobbyists: NNS, hold: VBP, holders: NNS, holding: VBG,
+      holdings: NNS, holds: VBZ, holidays: NNS, home: NN, homeless: JJ, homes: NNS,
+      homosexual: JJ, honor: VB, honorably: RB, honors: NNS, hope: VBP, hopefully: RB,
+      hopes: VBZ, hospitals: NNS, hosted: VBD, hostile: NN, hot: JJ, hotels: NNS,
+      hottest: JJS, hours: NNS, houses: NNS, how: WRB, how-to: JJ, however: RB, huge: JJ,
+      human: JJ, humans: NNS, humble: JJ, hundred: CD, hundreds: NNS, hung: VBD, hurt: VB,
+      hurting: VBG, hustlers: NNS, hydraulically: RB, ideas: NNS, identified: VBN,
+      identify: VB, identities: NNS, ideological: JJ, idiomatic: JJ, if: IN, ignoring: VBG,
+      illegal: JJ, illegally: RB, imaginative: JJ, imbalances: NNS, immediate: JJ,
+      immediately: RB, imminent: JJ, impartial: JJ, impending: VBG, imperative: JJ,
+      implant: VB, implications: NNS, implicit: JJ, import: NN, important: JJ, imported: VBN,
+      imports: NNS, impose: VB, imposed: VBD, imposing: VBG, improbable: JJ, improve: VB,
+      improved: VBN, improvements: NNS, improves: VBZ, improving: VBG, impudent: JJ,
+      in: IN, inadequate: JJ, inauspicious: JJ, inched: VBD, inches: NNS, inching: VBG,
+      include: VBP, included: VBD, includes: VBZ, including: VBG, incomplete: JJ,
+      incorporated: VBN, increase: VB, increased: VBN, increases: NNS, increasing: VBG,
+      increasingly: RB, incredible: JJ, incurred: VBN, indeed: RB, indefinitely: RB,
+      independent: JJ, indicate: VB, indicated: VBD, indicates: VBZ, indicators: NNS,
+      indirect: JJ, individual: JJ, individuals: NNS, indulging: VBG, industrial: JJ,
+      industrial-production: JJ, industrialized: VBN, industrials: NNS, industry-wide: JJ,
+      inferences: NNS, inflated: VBN, inflationary: JJ, influential: JJ, informally: RB,
+      initial: JJ, initialing: VBG, initially: RB, initiated: VBN, inner: JJ, innuendoes: NNS,
+      insist: VBP, insisted: VBD, insists: VBZ, inspirational: JJ, inspired: VBD,
+      installed: VBN, installing: VBG, instances: NNS, instead: RB, institute: VB,
+      instituted: VBN, institutional: JJ, institutions: NNS, instruments: NNS, integrated: VBN,
+      intellectual: JJ, intellectual-property: JJ, intended: VBN, intense: JJ, interest-bearing: JJ,
+      interested: JJ, interesting: JJ, interests: NNS, interim: JJ, interjects: VBZ,
+      intermediate: JJ, internal: JJ, international: JJ, interrogated: VBN, interstate: JJ,
+      intertitles: NNS, interventions: NNS, interviewed: VBN, into: IN, introduce: VB,
+      introduced: VBD, introducing: VBG, invades: VBZ, invent: VB, inventories: NNS,
+      invest: VBP, invested: VBN, investigating: VBG, investigations: NNS, investing: VBG,
+      investments: NNS, investor-relations: NNS, investors: NNS, invests: VBZ, involve: VB,
+      involved: VBN, involves: VBZ, involving: VBG, is: VBZ, issue: NN, issued: VBN,
+      issues: NNS, issuing: VBG, it: PRP, items: NNS, its: PRP$, itself: PRP, jet: VBP,
+      jitters: NNS, jobs: NNS, join: VB, joined: VBD, joins: VBZ, joint: JJ, joint-venture: JJ,
+      jointly: RB, jostle: VBP, journalistic: JJ, journalists: NNS, judged: VBN, judges: NNS,
+      judgments: NNS, judicial: JJ, jugglers: NNS, jump: VB, jumped: VBN, jumping: VBG,
+      junk-bond: JJ, just: RB, justify: VB, justifying: VBG, juvenile: JJ, keep: VB,
+      keeping: VBG, keeps: VBZ, kept: VBN, key: JJ, keyboards: NNS, kicked: VBN, kids: NNS,
+      killed: VBN, killing: VBG, kind: NN, kits: NNS, knitted: VBN, knocked: VBD,
+      know: VB, knowledgeable: JJ, known: VBN, knowns: NNS, knows: VBZ, la: DT, labor-intensive: JJ,
+      lackluster: JJ, lagging: VBG, laid: VBN, language-housekeeper: JJ, lap-shoulder: JJ,
+      lapses: VBZ, large: JJ, largely: RB, larger: JJR, largest: JJS, last: JJ, lasted: VBD,
+      lasting: JJ, late: JJ, later: JJ, latest: JJS, lauded: VBD, laughing: VBG, launch: NN,
+      launched: VBN, laurels: NNS, lawmakers: NNS, laws: NNS, lawsuits: NNS, lawyers: NNS,
+      lay: VBD, le: DT, lead: VB, leaders: NNS, leading: VBG, leapt: VBD, learned: VBN,
+      leases: NNS, least: JJS, leave: VB, leaves: VBZ, leaving: VBG, led: VBN, left: VBN,
+      legal: JJ, legislative: JJ, legislators: NNS, lend-lease: JJ, lengthen: VBP,
+      lengthened: VBD, lent: VBN, lesions: NNS, less: JJR, less-serious: JJ, lessen: VB,
+      lessening: VBG, lesser: JJR, letters: NNS, letting: VBG, level: NN, leveling: VBG,
+      levels: NNS, license: VB, licensed: VBD, lift: VB, lifted: VBN, light: JJ, light-truck: JJ,
+      lighter: JJR, lights: NNS, like: IN, likely: JJ, limited: VBN, limits: NNS,
+      link: VB, linked: VBN, links: NNS, listed: VBN, literary: JJ, little: JJ, lives: NNS,
+      load: VB, loans: NNS, local: JJ, locally: RB, located: VBN, lock: VB, locked: VBN,
+      lofty: JJ, long: JJ, long-term: JJ, longer: RBR, longest: JJS, longstanding: JJ,
+      look: NN, looking: VBG, looming: VBG, loose: JJ, losing: VBG, losses: NNS, lost: VBN,
+      loved: VBD, lovely: JJ, low: JJ, low-ability: JJ, low-ball: JJ, low-cost: JJ,
+      low-priced: JJ, low-tech: JJ, lower: JJR, lower-priority: JJ, lowered: VBD,
+      lowering: VBG, lowest: JJS, loyal: JJ, lucrative: JJ, lungs: NNS, lure: VB,
+      lying: VBG, lyrics: NNS, machines: NNS, made: VBN, magazines: NNS, magicians: NNS,
+      mailed: VBN, mailing: VBG, main: JJ, mainly: RB, maintained: VBN, maintaining: VBG,
+      major: JJ, make: VB, makers: NNS, makes: VBZ, making: VBG, male: NN, malignant: JJ,
+      managed: VBN, managers: NNS, managing: VBG, manipulate: VB, manually: RB, manufacture: VB,
+      manufactured: VBN, manufacturers: NNS, manufacturing: NN, many: JJ, map: VB,
+      marbles: NNS, margins: NNS, mark: NN, market-share: JJ, marketing: NN, marketing-communications: NNS,
+      markets: NNS, marks: NNS, marriages: NNS, marvelously: RB, matched: VBD, matches: NNS,
+      matching: JJ, materialistic: JJ, materialize: VBP, materials: NNS, matters: NNS,
+      mature: VB, maturing: VBG, maturities: NNS, may: MD, me: PRP, mean: VB, meaningful: JJ,
+      means: VBZ, meant: VBD, meanwhile: RB, measured: VBN, measures: NNS, mechanical: JJ,
+      mechanically: RB, media: NNS, medical: JJ, medium-sized: JJ, meet: VB, meetings: NNS,
+      meets: VBZ, members: NNS, memories: NNS, men: NNS, mental: JJ, mention: VBP,
+      merchants: NNS, mere: JJ, merely: RB, merge: VB, merged: VBD, merger-related: JJ,
+      merit: VB, met: VBD, metals: NNS, metric: JJ, metropolitan: JJ, mid-1970s: CD,
+      mid-1990s: NNS, mid-October: NNP, mid-size: JJ, middle: JJ, might: MD, miles: NNS,
+      milestones: NNS, military: JJ, milked: VBN, million: CD, millions: NNS, minimal: JJ,
+      minimum: NN, ministers: NNS, minivans: NNS, minute: JJ, minutes: NNS, mired: VBN,
+      mirrors: VBZ, mistrials: NNS, mixed: VBD, mobile: JJ, models: NNS, modems: NNS,
+      moderate: JJ, moderated: VBN, modern-day: JJ, modest: JJ, modestly: RB, modify: VB,
+      mollified: VBN, money-center: JJ, money-market: JJ, monied: JJ, monopolize: VB,
+      monthly: JJ, months: NNS, moons: NNS, morale-damaging: JJ, more: RBR, more-efficient: JJ,
+      mortgage-backed: JJ, mortgage-based: JJ, most: JJS, mostly: RB, motives: NNS,
+      mounted: VBD, move: NN, moved: VBN, moves: VBZ, movies: NNS, moving: VBG, much: RB,
+      multibillion-dollar: JJ, multilevel: JJ, multinationals: NNS, mundane: JJ, municipal: JJ,
+      municipalities: NNS, murdered: VBN, must: MD, mutual: JJ, my: PRP$, myriad: JJ,
+      n't: RB, name: NN, named: VBN, names: NNS, narcotics: NNS, narrow: JJ, narrowly: RB,
+      national: JJ, nations: NNS, near: IN, near-record: JJ, nearly: RB, nearly-30: JJ,
+      necessarily: RB, necessary: JJ, need: VBP, needed: VBD, needing: VBG, needle-like: JJ,
+      needs: VBZ, needy: JJ, negative: JJ, negotiate: VB, negotiations: NNS, negotiators: NNS,
+      neighborhoods: NNS, neighbors: NNS, neither: DT, nervous: JJ, net: JJ, nets: NNS,
+      networks: NNS, never: RB, new: JJ, newer: JJR, newly: RB, newspapers: NNS, newsstands: NNS,
+      newsweekly: RB, next: JJ, nice: JJ, niches: NNS, nine: CD, nine-member: JJ,
+      ninth: JJ, 'no': DT, nominal: JJ, nominated: VBD, non-biodegradable: JJ, non-encapsulating: JJ,
+      nondurable: JJ, nonexecutive: JJ, nonfat: JJ, nonfinancial: JJ, nonresidential: JJ,
+      noodles: NNS, nor: CC, normal: JJ, north: JJ, not: RB, notably: RB, note: VBP,
+      noted: VBD, notes: NNS, noticing: VBG, noting: VBG, now: RB, nuclear: JJ, numbered: VBD,
+      numerous: JJ, nurtured: VBN, nutty: JJ, obedient: JJ, objectives: NNS, obligations: NNS,
+      observations: NNS, obsessed: VBN, obstacles: NNS, obtain: VB, obtained: VBN,
+      obtaining: VBG, occur: VB, occurrences: NNS, odd: JJ, of: IN, 'off': RP, off-off: JJ,
+      offend: VB, offenders: NNS, offending: VBG, offer: NN, offered: VBD, offering: VBG,
+      offers: VBZ, officers: NNS, offices: NNS, official: NN, officially: RB, officials: NNS,
+      offset: VBN, often: RB, oils: NNS, old: JJ, older: JJR, oldest: JJS, omitted: VBD,
+      'on': IN, on-campus: JJ, once: RB, one: CD, one-country: JJ, one-day: JJ, one-hour: JJ,
+      one-third: NN, one-time: JJ, one-yen: JJ, ones: NNS, ongoing: JJ, only: RB,
+      open: JJ, open-end: JJ, opened: VBN, opening: VBG, openly: RB, operate: VBP,
+      operated: VBN, operates: VBZ, operating: VBG, operational: JJ, operations: NNS,
+      opinions: NNS, oppose: VBP, opposed: VBN, opposes: VBZ, options: NNS, or: CC,
+      ordered: VBD, orders: NNS, organizations: NNS, organized: JJ, original: JJ,
+      originally: RB, other: JJ, others: NNS, ounces: NNS, our: PRP$, out: RP, outlawed: VBN,
+      outpaced: VBN, outraged: JJ, outranks: VBZ, outright: JJ, outside: IN, outsiders: NNS,
+      outstanding: JJ, outstrips: VBZ, over: IN, over-the-counter: JJ, overall: JJ,
+      overhead: NN, overpriced: VBN, overruns: NNS, overseas: JJ, oversee: VB, overused: VBN,
+      owed: VBD, own: JJ, owned: VBN, owners: NNS, owns: VBZ, p.m: RB, packages: NNS,
+      packaging: NN, packed: JJ, pages: NNS, paid: VBN, painted: VBN, pair: VB, paltry: JJ,
+      papers: NNS, parallel: VB, parallels: NNS, parents: NNS, parlors: NNS, partially: RB,
+      participants: NNS, particular: JJ, particularly: RB, particulars: NNS, parties: NNS,
+      partisan: JJ, partisans: NNS, partly: RB, partners: NNS, parts: NNS, pass: VB,
+      passages: NNS, passed: VBN, passers-by: NNS, past: JJ, patented: VBD, patents: NNS,
+      patterns: NNS, pay: VB, payable: JJ, paying: VBG, payments: NNS, payrolls: NNS,
+      pending: VBG, penetrate: VB, people: NNS, per: IN, perceived: VBN, perceives: VBZ,
+      perfectly: RB, performed: VBN, perhaps: RB, periods: NNS, peripheral: JJ, permanent: JJ,
+      permit: VBP, permitted: VBN, permitting: VBG, perpetuate: VBP, persistent: JJ,
+      personal: JJ, personally: RB, personnel: NNS, persuade: VB, petulant: JJ, pharmaceutical: JJ,
+      pharmaceuticals: NNS, phase: VB, phasing: VBG, phony: JJ, photographs: NNS,
+      photos: NNS, pick: VB, pick-up: JJ, picking: VBG, pickups: NNS, pieces: NNS,
+      pine: VBP, pirates: NNS, pitches: VBZ, place: NN, placed: VBD, places: NNS,
+      plan: NN, planned: VBD, planners: NNS, plans: VBZ, plants: NNS, play: VB, played: VBN,
+      players: NNS, playful: JJ, playing: VBG, pleaded: VBD, pleased: VBN, plenty: JJ,
+      plunged: VBD, plunging: VBG, plus: CC, poignant: JJ, point: NN, pointed: VBD,
+      pointing: VBG, points: NNS, polarized: VBN, policies: NNS, polish: VB, politely: RB,
+      political: JJ, politicians: NNS, politics: NNS, polled: VBD, poor: JJ, poorly: RB,
+      popular: JJ, populated: VBN, portfolios: NNS, portrayed: VBN, pose: VB, posing: VBG,
+      positioned: VBN, positions: NNS, positive: JJ, possessions: NNS, possible: JJ,
+      possibly: RB, post: VB, post-hearing: JJ, posted: VBD, posters: NNS, posting: VBG,
+      postponed: VBN, posts: NNS, potential: JJ, pounds: NNS, pour: VB, poured: VBD,
+      practices: NNS, practicing: VBG, praised: VBD, pre-1917: JJ, pre-1933: JJ, pre-Communist: JJ,
+      pre-approved: JJ, pre-cooked: JJ, pre-emptive: JJ, precious: JJ, precise: JJ,
+      precisely: RB, predicted: VBD, predicting: VBG, prefectural: JJ, preferences: NNS,
+      preferred: VBN, pregnant: JJ, preliminary: JJ, premiums: NNS, preparatives: NNS,
+      prepare: VB, prepared: VBN, prescient: JJ, presented: VBN, presidential: JJ,
+      presidents: NNS, pressed: VBN, pressure: NN, pressured: JJ, pressures: NNS,
+      prestigious: JJ, presumably: RB, pretax: JJ, pretty: RB, prevailing: VBG, prevent: VB,
+      preventing: VBG, previous: JJ, previously: RB, priced: VBN, prices: NNS, priciest: JJS,
+      primarily: RB, primary: JJ, prime: JJ, principal: NN, printed: VBN, prior: RB,
+      private: JJ, privately: RB, privileged: JJ, pro-choice: JJ, probably: RB, problems: NNS,
+      procedures: NNS, proceedings: NNS, proceeds: NNS, processors: NNS, produce: VB,
+      produced: VBN, producers: NNS, producing: VBG, product-design: JJ, products: NNS,
+      professional: JJ, profitable: JJ, profits: NNS, program-trading: JJ, programs: NNS,
+      prohibited: VBN, prohibits: VBZ, projects: NNS, prolonged: VBN, prominent: JJ,
+      promising: JJ, promissory: JJ, promote: VBP, promoting: VBG, promotional: JJ,
+      promotions: NNS, prompted: VBN, proof: JJ, propelling: VBG, properties: NNS,
+      proposals: NNS, proposed: VBD, proposing: VBG, prosecute: VB, prosecuted: VBN,
+      prosecuting: VBG, prosecutors: NNS, prospectively: RB, prospects: NNS, protect: VB,
+      protected: VBN, protecting: VBG, protections: NNS, protracted: JJ, prove: VB,
+      provide: VB, provided: VBN, providers: NNS, provides: VBZ, providing: VBG, provisions: NNS,
+      provoke: VB, prying: JJ, public: JJ, publicized: VBN, publicly: RB, published: VBD,
+      publishes: VBZ, publishing: VBG, pull: VB, pumping: VBG, punish: VB, punishable: JJ,
+      punishing: VBG, punitive: JJ, purchased: VBD, purchasers: NNS, purchases: NNS,
+      purchasing: NN, purely: RB, purrs: VBZ, pursuant: JJ, pursue: VB, pursued: VBN,
+      push: VB, pushing: VBG, put: VB, putting: VBG, qualify: VB, quantities: NNS,
+      quarterly: JJ, queers: NNS, question: NN, questionable: JJ, questions: NNS,
+      queuing: VBG, quick: JJ, quickly: RB, quiet: JJ, quipped: VBD, quips: VBZ, quite: RB,
+      quitting: VBG, quotas: NNS, quoted: VBN, raced: VBD, railcars: NNS, raise: VB,
+      raised: VBN, raises: VBZ, raising: VBG, ran: VBD, ranged: VBN, rankings: NNS,
+      rapid: JJ, rapidly: RB, rapists: NNS, rarefied: VBN, rarely: RB, raring: JJ,
+      rate: NN, rate-sensitive: JJ, ratepayers: NNS, rates: NNS, rather: RB, ratings: NNS,
+      rationed: VBN, re-thought: JJ, reach: VBP, reached: VBN, reaches: VBZ, read: VBD,
+      ready: JJ, real: JJ, real-estate: NN, realize: VB, realized: VBD, really: RB,
+      rear: JJ, reasons: VBZ, reasserts: VBZ, rebuffed: VBD, rebuked: VBD, recalling: VBG,
+      recalls: VBZ, recede: VBP, receipts: NNS, receive: VB, received: VBD, receives: VBZ,
+      receiving: VBG, recent: JJ, recently: RB, recipient: JJ, recognize: VB, recognizing: VBG,
+      recommend: VB, recommendations: NNS, recommended: VBD, record: NN, recorded: VBN,
+      records: NNS, recruit: VB, recycled: VBN, red: JJ, red-and-white: JJ, red-carpet: JJ,
+      red-flag: VB, redeem: VB, redeemed: VBN, redeeming: VBG, redeploy: VB, reds: NNS,
+      reduce: VB, reduced: VBN, reducing: VBG, reductions: NNS, referrals: NNS, referred: VBN,
+      referring: VBG, refile: VB, refitting: VBG, reflect: VBP, reflecting: VBG, reflects: VBZ,
+      reformers: NNS, reforms: NNS, refreshing: VBG, refund: NN, refunded: VBN, refunding: VBG,
+      refunds: NNS, refused: VBN, regard: VBP, regarding: VBG, regenerate: VB, regimented: JJ,
+      regional: JJ, regions: NNS, registered: VBN, regular: JJ, regulate: VB, regulators: NNS,
+      regulatory: JJ, reinstating: VBG, reject: VB, rejected: VBD, related: JJ, relating: VBG,
+      relations: NNS, relatively: RB, released: VBN, releases: NNS, relegated: VBN,
+      relied: VBN, relieved: JJ, remain: VB, remained: VBD, remaining: VBG, remains: VBZ,
+      remarked: VBD, remarks: NNS, remove: VB, removed: VBN, renew: VB, renewed: VBD,
+      renovated: VBN, rentals: NNS, reopened: VBD, repaid: VBN, replaced: VBN, replacing: VBG,
+      replicate: VB, replicated: VBN, replicating: VBG, replies: VBZ, report: NN,
+      reported: VBD, reportedly: RB, reporting: VBG, reports: NNS, represent: VBP,
+      represented: VBD, representing: VBG, represents: VBZ, requested: VBN, require: VB,
+      required: VBN, requirements: NNS, requires: VBZ, requiring: VBG, reruns: NNS,
+      rescheduled: VBN, researchers: NNS, reservations: NNS, reserves: NNS, residential: JJ,
+      resigned: VBD, resilient: JJ, resistant: JJ, resisting: VBG, resists: VBZ, resolve: VB,
+      resolved: VBD, resonate: VB, resources: NNS, respond: VB, responded: VBN, responding: VBG,
+      responses: NNS, restaurants: NNS, restore: VB, restrictions: NNS, restricts: VBZ,
+      restructured: VBD, resubmit: VB, result: VB, resulting: VBG, results: NNS, resume: VB,
+      retail: NN, retailers: NNS, retain: VB, retained: VBN, retaining: VBG, retaliating: VBG,
+      retired: VBN, retires: VBZ, retiring: VBG, retorts: NNS, return: NN, returned: VBN,
+      returning: VBG, returns: NNS, revenue-desperate: JJ, revenues: NNS, review: NN,
+      reviewed: VBD, reviewing: VBG, revising: VBG, revive: VB, revived: VBN, reward: VB,
+      rewarding: VBG, rewards: NNS, rich: JJ, right: NN, rights: NNS, rings: NNS,
+      ripen: VBP, rise: VB, rises: NNS, rising: VBG, risk: NN, risks: NNS, rival: NN,
+      robotic: JJ, roll: VB, rolled: VBN, romanticized: VBN, roof-crush: JJ, roofs: NNS,
+      rooted: VBN, rose: VBD, rough: JJ, roughhewn: JJ, roughly: RB, rule: NN, ruled: VBD,
+      rules: NNS, run: VBN, run-down: JJ, running: VBG, runs: VBZ, rushed: VBD, rusted: VBN,
+      rusty: JJ, sacks: NNS, sacrificing: VBG, safe: JJ, safe-deposit: JJ, sagging: VBG,
+      said: VBD, salarymen: NNS, sales: NNS, same: JJ, sanctions: NNS, sassy: JJ,
+      satisfactory: JJ, satisfying: VBG, save: VB, savers\/investors: NNS, saving: VBG,
+      savings: NNS, savings-and-loan: JJ, savvier: JJR, saw: VBD, say: VBP, saying: VBG,
+      says: VBZ, scarce: JJ, scared: VBN, scattered: VBN, scenes: NNS, scheduled: VBN,
+      school-improvement: JJ, school-research: JJ, school-sponsored: JJ, schoolboys: NNS,
+      schools: NNS, scientific: JJ, scientists: NNS, scores: NNS, scrambled: VBN,
+      scrambling: VBG, scrapped: VBN, screens: NNS, screenwriters: NNS, scrupulously: RB,
+      search-and-seizure: JJ, seasonal: JJ, seasonally: RB, seats: NNS, second: JJ,
+      secondary: JJ, sections: NNS, sectors: NNS, secured: VBD, securities: NNS, securities-based: JJ,
+      see: VB, seeing: VBG, seek: VB, seeking: VBG, seeks: VBZ, seem: VBP, seemed: VBD,
+      seems: VBZ, seen: VBN, segmenting: VBG, segments: NNS, seized: VBD, self-aggrandizing: JJ,
+      sell: VB, sell-offs: NNS, selling: VBG, sells: VBZ, semesters: NNS, semiannual: JJ,
+      semiconductors: NNS, send: VBP, sending: VBG, senior: JJ, sent: VBN, sentencing: VBG,
+      separate: JJ, serious: JJ, seriously: RB, serve: VB, served: VBN, serviced: VBN,
+      services: NNS, serving: VBG, set: VBN, sets: NNS, setting: VBG, settle: VBP,
+      settled: VBN, seven: CD, seven-day: JJ, seven-year: JJ, seventh: JJ, several: JJ,
+      sew: VB, shaded: JJ, shadows: NNS, shake: VB, shallow: JJ, share: NN, shareholders: NNS,
+      shares: NNS, sharper: JJR, sharply: RB, she: PRP, sheets: NNS, shipments: NNS,
+      shipped: VBN, ships: NNS, shirts: NNS, shops: NNS, shore: VB, short: JJ, short-lived: JJ,
+      short-term: JJ, shortly: RB, shot: NN, should: MD, shovels: NNS, show: NN, showed: VBD,
+      showing: VBG, showings: NNS, shown: VBN, shows: NNS, shrinks: VBZ, shut: VB,
+      side-crash: JJ, sides: NNS, sidestep: VBP, sights: NNS, sign: NN, signaling: VBG,
+      signals: NNS, signboards: NNS, signed: VBN, significant: JJ, significantly: RB,
+      signs: NNS, silent: JJ, similar: JJ, simple: JJ, simply: RB, since: IN, single: JJ,
+      single-family: JJ, single-handedly: RB, sinister: JJ, sites: NNS, situations: NNS,
+      six: CD, six-bottle: JJ, six-inch: JJ, six-month: JJ, six-packs: NNS, sixth: JJ,
+      sketching: VBG, skidded: VBD, skirmishes: NNS, skyrocketed: VBN, slack: NN,
+      slash: VB, slashing: VBG, sleep: VB, slid: VBD, slide: VB, slides: NNS, slightly: RB,
+      slip: VB, slipped: VBD, slow: JJ, slower: JJR, slowing: VBG, slowly: RB, sluggish: JJ,
+      small: JJ, small-time: JJ, smaller: JJR, smallest: JJS, smokers: NNS, smooth: JJ,
+      snapped: VBD, so: RB, so-called: JJ, soared: VBN, social: JJ, soft: JJ, sold: VBN,
+      solely: RB, solicitous: JJ, solid: JJ, solved: VBN, solvent: JJ, some: DT, sometimes: RB,
+      sometimes-tawdry: JJ, soon: RB, sooner: RBR, sophisticated: JJ, sorry: JJ, sorting: VBG,
+      sounds: NNS, spark: VB, sparked: VBN, sparking: VBG, special: JJ, specialists: NNS,
+      specialize: VB, specializes: VBZ, specializing: VBG, specific: JJ, specifics: NNS,
+      spectacularly: RB, speculate: VB, speculated: VBD, speculators: NNS, speed: VB,
+      spend: VB, spenders: NNS, spends: VBZ, spent: VBN, split: VB, sport-utility: JJ,
+      sports: NNS, spotted: VBD, spread: VBN, spur: VB, spurns: VBZ, spurred: VBN,
+      square: JJ, squeezed: VBN, stabbed: VBN, stages: NNS, staggering: JJ, stake: NN,
+      stakes: NNS, stalls: NNS, stand: VB, standard: NN, standardized: JJ, standards: NNS,
+      standing: NN, stands: NNS, stars: NNS, start: VBP, started: VBD, starters: NNS,
+      starting: VBG, startling: JJ, starts: VBZ, state-owned: JJ, state-supervised: JJ,
+      stated: VBN, states: NNS, statewide: JJ, stations: NNS, statistics: NNS, steady: JJ,
+      steal: VB, steep: JJ, steeper: JJR, stem: VBP, stemming: VBG, step: VB, stepped: VBD,
+      stepping: VBG, steps: NNS, stiff: JJ, still: RB, stirred: VBD, stirrings: NNS,
+      stock-index: JJ, stock-manipulation: JJ, stockholders: NNS, stocks: NNS, stoked: VBN,
+      stones: NNS, stood: VBD, stop: VB, stopped: VBD, store: VB, stored: VBD, stores: NNS,
+      straight: JJ, strapped: VBN, strategic: JJ, streets: NNS, stressed: VBD, stressing: VBG,
+      stretching: VBG, strict: JJ, striking: JJ, stringently: RB, strings: NNS, strong: JJ,
+      stronger: JJR, strongly: RB, structures: NNS, struggled: VBD, student-test: JJ,
+      students: NNS, studied: VBN, studies: NNS, study: NN, studying: VBG, stunned: JJ,
+      styles: NNS, sub-markets: NNS, sub-segments: NNS, subject: NN, subjects: NNS,
+      submit: VB, subordinate: JJ, subordinated: VBN, subscribers: NNS, subscriptions: NNS,
+      subsequent: JJ, subsidiaries: NNS, subskills: NNS, substantial: JJ, substantially: RB,
+      suburban: JJ, succeed: VB, succeeding: VBG, succeeds: VBZ, successful: JJ, such: JJ,
+      sudden: JJ, suddenly: RB, suffer: VB, suffered: VBD, suggest: VBP, suggested: VBD,
+      suggests: VBZ, suing: VBG, summer\/winter: JJ, summoned: VBD, sums: NNS, sunny: JJ,
+      supercilious: JJ, supercomputers: NNS, superimposed: VBN, superior: JJ, superiors: NNS,
+      superpremiums: NNS, suppliers: NNS, supplies: VBZ, supply: NN, support: VB,
+      sure: JJ, surfaced: VBN, surged: VBD, surprised: VBN, surprising: JJ, surprisingly: RB,
+      surrendered: VBD, surveyed: VBN, survive: VB, surviving: VBG, suspect: VB, suspects: VBZ,
+      suspended: VBD, swapped: VBN, sweeping: VBG, sweet: JJ, sweetened: VBD, swelling: VBG,
+      swim: VBP, swing: VB, switch: VB, switched: VBN, symbolic: JJ, sympathetic: JJ,
+      symptoms: NNS, synchronized: VBN, systematic: JJ, systems: NNS, tactics: NNS,
+      tags: NNS, tailored: VBN, tailoring: VBG, take: VB, taken: VBN, takes: VBZ,
+      taking: VBG, talk: VB, talked: VBN, talking: VBG, talks: NNS, tallies: NNS,
+      taper: VB, target: NN, targeted: VBN, targeting: VBG, targets: NNS, tasty: JJ,
+      taught: VBD, taxable: JJ, taxes: NNS, taxpayers: NNS, teach: VB, teacher-cadet: JJ,
+      teachers: NNS, teams: NNS, technical: JJ, techniques: NNS, teenage: JJ, teetering: VBG,
+      telecommunications: NNS, telegraph: VBP, telephones: NNS, tell: VBP, telling: VBG,
+      tells: VBZ, temporarily: RB, tempts: VBZ, tend: VBP, tender: NN, tense: JJ,
+      terminated: VBD, terms: NNS, test: NN, test-coaching: JJ, test-practice: JJ,
+      test-prep: JJ, test-preparation: JJ, tested: VBN, testify: VB, tests: NNS, than: IN,
+      that: IN, the: DT, theaters: NNS, their: PRP$, them: PRP, themselves: PRP, then: RB,
+      therapies: NNS, there: EX, therefore: RB, these: DT, they: PRP, thin: JJ, thin-lipped: JJ,
+      things: NNS, think: VBP, thinking: VBG, thinks: VBZ, third: JJ, third-highest: JJS,
+      third-quarter: JJ, this: DT, those: DT, though: IN, thought: VBD, thousands: NNS,
+      threatened: VBN, threats: NNS, three: CD, three-digit: JJ, three-lawyer: JJ,
+      three-sevenths: NNS, three-year: JJ, thrifts: NNS, through: IN, throughout: IN,
+      throws: VBZ, thugs: NNS, thumbing: VBG, tidily: RB, tie-breaking: JJ, tied: VBN,
+      ties: NNS, tigers: NNS, tight: JJ, tilt: VB, times: NNS, tiny: JJ, tip: VB,
+      tired: JJ, tissue-transplant: JJ, tissues: NNS, titans: NNS, to: TO, together: RB,
+      told: VBD, too: RB, took: VBD, tools: NNS, top: JJ, top-yielding: JJ, topics: NNS,
+      total: NN, totaled: VBD, totaling: VBG, touch: VBP, touched: VBD, touchy: JJ,
+      toward: IN, towns: NNS, traced: VBD, tracked: VBN, tracking: VBG, tracks: VBZ,
+      trade: NN, traded: VBN, traders: NNS, trades: NNS, trading: NN, traditional: JJ,
+      traditionally: RB, trained: VBN, transactions: NNS, transferring: VBG, transforming: VBG,
+      transplants: NNS, transporting: VBG, travelers: NNS, treat: VB, treated: VBN,
+      treats: VBZ, trials: NNS, tricky: JJ, tried: VBN, triggered: VBN, trillion: CD,
+      triple: RB, tripled: VBN, troubled: JJ, troubles: NNS, trucks: NNS, 'true': JJ,
+      trust: VB, truthful: JJ, try: VB, trying: VBG, tubes: NNS, tuck: VB, tumbled: VBD,
+      tumultuous: JJ, turn: VB, turned: VBD, turning: VBG, turns: VBZ, twice: RB,
+      twinned: VBN, two: CD, two-letter: JJ, two-sevenths: NNS, two-thirds: NNS, two-year: JJ,
+      two-year-old: JJ, types: NNS, typically: RB, ultimately: RB, unabated: JJ, unattractive: JJ,
+      unauthorized: JJ, unaware: JJ, uncanny: JJ, unchanged: JJ, uncharted: JJ, unclear: JJ,
+      uncomfortable: JJ, uncomplaining: JJ, under: IN, undercut: VBP, underline: VB,
+      underlying: VBG, underpin: VB, underprivileged: JJ, underscore: VBP, understood: VBD,
+      undertaking: VBG, underwriters: NNS, undisclosed: JJ, unfair: JJ, unfair-trade: JJ,
+      unfairly: RB, unfathomable: JJ, unfettered: JJ, unfilled: JJ, unfounded: JJ,
+      unimpeded: JJ, unions: NNS, unique: JJ, units: NNS, unjust: JJ, unjustified: JJ,
+      unleashed: VBD, unless: IN, unlike: JJ, unloaded: JJ, unpleasant: JJ, unproductive: JJ,
+      unproven: JJ, unrealistically: RB, unreasonable: JJ, unrecognizable: JJ, unstinting: JJ,
+      unsuccessfully: RB, unsympathetic: JJ, until: IN, untrained: JJ, unusual: JJ,
+      unusually: RB, up: RP, upheld: VBD, upon: IN, upstream: RB, uptick: VB, upward: JJ,
+      urge: VBP, urged: VBD, urging: VBG, us: PRP, use: VB, used: VBN, useful: JJ,
+      users: NNS, uses: NNS, ushered: VBD, ushering: VBG, ushers: NNS, using: VBG,
+      usual: JJ, usually: RB, vagrant: JJ, valuations: NNS, valued: VBN, values: VBZ,
+      vans: NNS, various: JJ, vary: VB, varying: VBG, vehicles: NNS, vendors: NNS,
+      venerable: JJ, ventilated: VBD, ventures: NNS, versions: NNS, vertically: RB,
+      very: RB, via: IN, vice: NN, vicious: JJ, victims: NNS, video-viewing: JJ, view: VBP,
+      viewed: VBN, viewers: NNS, views: NNS, vintages: NNS, violate: VB, violated: VBD,
+      violations: NNS, virtually: RB, virtues: NNS, visible: JJ, visiting: VBG, visitors: NNS,
+      vitally: RB, vitriolic: JJ, voice: NN, voices: NNS, volatile: JJ, voluntarily: RB,
+      voted: VBN, vowed: VBN, wafers: NNS, wages: NNS, wait: VB, waiting: VBG, waiving: VBG,
+      walk: VBP, walking: VBG, wallowing: VBG, want: VBP, wanted: VBD, wants: VBZ,
+      war-damaged: JJ, war-rationed: JJ, ward: VB, warnings: NNS, warns: VBZ, warrants: NNS,
+      was: VBD, watch: NN, watched: VBN, watches: NNS, watching: VBG, ways: NNS, we: PRP,
+      we-Japanese: JJ, weak: JJ, wear: VB, wears: VBZ, weddings: NNS, weekends: NNS,
+      weeklies: NNS, weeks: NNS, weighed: VBD, weighing: VBG, weird: JJ, welcomed: VBN,
+      well: RB, went: VBD, were: VBD, what: WP, wheel-loader: JJ, when: WRB, when-issued: JJ,
+      where: WRB, whereby: WRB, whether: IN, which: WDT, while: IN, whimsical: JJ,
+      whipsaw: VB, whirling: JJ, whistle: VBP, white: JJ, white-collar: JJ, who: WP,
+      whole: JJ, wholesale: NN, whom: WP, whose: WP$, why: WRB, wide: RB, widely: RB,
+      widespread: JJ, wild: JJ, wildly: RB, will: MD, willing: JJ, win: VB, wine-buying: JJ,
+      wines: NNS, wings: NNS, winning: JJ, wins: VBZ, wish: VB, with: IN, withdraw: VB,
+      withdrawn: VBN, within: IN, without: IN, withstand: VB, witnesses: NNS, wives: NNS,
+      wo: MD, women: NNS, won: VBD, words: NNS, work: NN, workbooks: NNS, worked: VBD,
+      workers: NNS, working: VBG, works: NNS, worksheets: NNS, world-wide: JJ, worms: NNS,
+      worried: VBN, worries: NNS, worry: VBP, worrying: VBG, worse: JJR, worst: JJS,
+      worst-case: JJ, worth: NN, worthy: JJ, would: MD, would-be: JJ, wrenching: JJ,
+      writers: NNS, written: VBN, wrong: JJ, wrote: VBD, year-ago: JJ, year-earlier: JJ,
+      year-long: JJ, year-to-year: JJ, yearly: JJ, years: NNS, yellow: JJ, yen: NNS,
+      yen-denominated: JJ, yen-support: JJ, 'yes': RB, yet: RB, yielded: VBD, yielding: VBG,
+      yields: NNS, you: PRP, young: JJ, younger: JJR, your: PRP$, youthful: JJ, zoomed: VBN}
+    _n: 1
+    _taggers:
+    - *id002
+    - &id003 !nltk.RegexpTagger
+      _map: {g0: CD, g1: NN}
+      _regexs: !!python/object/apply:re._compile ['(?P<g0>^-?[0-9]+(.[0-9]+)?$)|(?P<g1>.*)',
+        0]
+      _size: 2
+      _taggers:
+      - *id003
+  - *id003
+_rules: !!python/tuple
+- !ProximateTagsRule
+  conditions:
+  - [1, 2, DT]
+  description: WDT -> IN if the tag of words i+1...i+2 is 'DT'
+  original: WDT
+  replacement: IN
+- !ProximateWordsRule
+  conditions:
+  - [1, 1, well]
+  description: IN -> RB if the text of the following word is 'well'
+  original: IN
+  replacement: RB
+- !ProximateTagsRule
+  conditions:
+  - [-1, -1, NN]
+  - [1, 1, NNP]
+  description: WDT -> IN if the tag of the preceding word is 'NN', and the tag of
+    the following word is 'NNP'
+  original: WDT
+  replacement: IN
+- !ProximateTagsRule
+  conditions:
+  - [1, 2, NNS]
+  description: RBR -> JJR if the tag of words i+1...i+2 is 'NNS'
+  original: RBR
+  replacement: JJR
+- !ProximateTagsRule
+  conditions:
+  - [1, 2, NNS]
+  description: WDT -> IN if the tag of words i+1...i+2 is 'NNS'
+  original: WDT
+  replacement: IN
+- !ProximateTagsRule
+  conditions:
+  - [-1, -1, NN]
+  - [1, 1, PRP]
+  description: WDT -> IN if the tag of the preceding word is 'NN', and the tag of
+    the following word is 'PRP'
+  original: WDT
+  replacement: IN
+- !ProximateTagsRule
+  conditions:
+  - [1, 3, VBG]
+  description: WDT -> IN if the tag of words i+1...i+3 is 'VBG'
+  original: WDT
+  replacement: IN
+- !ProximateTagsRule
+  conditions:
+  - [-1, -1, NN]
+  - [1, 1, DT]
+  description: RB -> IN if the tag of the preceding word is 'NN', and the tag of the
+    following word is 'DT'
+  original: RB
+  replacement: IN
+- !ProximateTagsRule
+  conditions:
+  - [1, 1, NN]
+  description: RBR -> JJR if the tag of the following word is 'NN'
+  original: RBR
+  replacement: JJR
+- !ProximateTagsRule
+  conditions:
+  - [-3, -1, MD]
+  description: VBP -> VB if the tag of words i-3...i-1 is 'MD'
+  original: VBP
+  replacement: VB
+- !ProximateWordsRule
+  conditions:
+  - [-1, -1, one]
+  description: NNS -> NN if the text of the preceding word is 'one'
+  original: NNS
+  replacement: NN
+- !ProximateWordsRule
+  conditions:
+  - [-3, -1, were]
+  description: RP -> RB if the text of words i-3...i-1 is 'were'
+  original: RP
+  replacement: RB
+- !ProximateWordsRule
+  conditions:
+  - [-2, -1, n't]
+  description: VBP -> VB if the text of words i-2...i-1 is "n't"
+  original: VBP
+  replacement: VB
